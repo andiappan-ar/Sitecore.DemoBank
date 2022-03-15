@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="wwwroot\js\site.js" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.0" />
+	  <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+	  <PackageReference Include="Sitecore.AspNet.ExperienceEditor" Version="19.0.2" />
+	  <PackageReference Include="Sitecore.AspNet.RenderingEngine" Version="19.0.2" />
+	  <PackageReference Include="Sitecore.AspNet.Tracking" Version="19.0.2" />
+	  <PackageReference Include="Sitecore.AspNet.Tracking.VisitorIdentification" Version="19.0.2" />
+	  <PackageReference Include="Sitecore.LayoutService.Client" Version="19.0.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\..\Feature\Banner\rendering\DemoBank.Feature.Banner.Rendering.csproj" />
+	  <ProjectReference Include="..\..\..\Feature\BranchAndATM\rendering\DemoBank.Feature.BranchAndATM.Rendering.csproj" />
+	  <ProjectReference Include="..\..\..\Feature\Card\rendering\DemoBank.Feature.Card.Rendering.csproj" />
+	  <ProjectReference Include="..\..\..\Feature\LanguageSwitcher\rendering\DemoBank.Feature.LanguageSwitcher.Rendering.csproj" />
+	  <ProjectReference Include="..\..\..\Feature\Navigation\rendering\DemoBank.Feature.Navigation.Rendering.csproj" />
+	  <ProjectReference Include="..\..\..\Foundation\GraphQL\DemoBank.Foundation.GraphQL.Rendering.csproj" />
+
+	</ItemGroup>
+
+</Project>

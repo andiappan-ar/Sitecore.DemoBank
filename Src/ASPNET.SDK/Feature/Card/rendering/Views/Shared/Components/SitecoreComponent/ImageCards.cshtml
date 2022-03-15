@@ -1,0 +1,32 @@
+@using DemoBank.Feature.Card.Rendering.Models
+@model CardModel
+
+@if (Model != null)
+{
+    <!-- Image cards-->
+
+
+    <div id="portfolio">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                @foreach (var card in Model.Elements)
+                {
+                    <div class="col-lg-4 col-sm-6">
+
+                        <a class="portfolio-box" href="@card.Fields.CardImage.Value" title="Project Name">
+                            <sc-img class="img-fluid" asp-for="@card.Fields.CardImage"></sc-img>
+
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50"><sc-text asp-for="@card.Fields.CardParagraph"></sc-text></div>
+                                <div class="project-name"><sc-text asp-for="@card.Fields.CardTitle"></sc-text></div>
+                            </div>
+                        </a>
+                    </div>
+
+                }
+
+
+            </div>
+        </div>
+    </div>
+}

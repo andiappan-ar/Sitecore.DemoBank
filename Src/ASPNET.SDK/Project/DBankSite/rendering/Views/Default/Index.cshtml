@@ -1,0 +1,22 @@
+﻿@model Route
+
+@{
+    ViewData["Title"] = Model?.ReadField<TextField>("pageTitle")?.Value ?? string.Empty;
+}
+
+<!-- Masthead-->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <sc-placeholder name="header"></sc-placeholder>
+        </div>
+        <vc:language-switcher></vc:language-switcher>
+    </nav>
+</header>
+
+
+<sc-placeholder name="main"></sc-placeholder>
+<!-- Footer-->
+<footer class="bg-light py-5">
+    <sc-placeholder name="footer"></sc-placeholder>
+</footer>

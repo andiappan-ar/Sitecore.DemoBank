@@ -1,0 +1,20 @@
+@using DemoBank.Feature.Banner.Rendering.Models
+@model BannerModel
+
+<section class="page-section bg-primary" id="jumbotron" style="background-image:url(@Model.CardImage.Value.Src)">
+    <div class="jumbotron" style="padding:100px;">
+        <h1 class="display-4 text-white text-center">
+            <sc-text asp-for="@Model.CardTitle"></sc-text>
+        </h1>
+        <p class="lead text-info text-center">
+            <sc-text asp-for="@Model.CardDescription"></sc-text>
+        </p>
+        <hr class="my-4">
+        <p class="text-warning text-center"><sc-text asp-for="@Model.CardParagraph"></sc-text></p>
+        <p class="lead text-center">
+            <sc-link class="btn btn-primary btn-xl" href="#services" asp-for="@Model.CardLink"></sc-link>
+        </p>
+    </div>
+</section>
+
+

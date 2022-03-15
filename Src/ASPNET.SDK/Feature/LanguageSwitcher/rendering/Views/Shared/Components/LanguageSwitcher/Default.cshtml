@@ -1,0 +1,16 @@
+﻿@using DemoBank.Feature.LanguageSwitcher.Rendering.Models
+@model LanguageSwitcherModel
+
+<div class="dropdown" style="padding-right: 45px;">
+  <a class="btn btn-secondary dropdown-toggle"  role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+    @Model.CurrentUICulture.Name
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+       @foreach (var culture in Model.SupportedCultures)
+    {
+        string ischecked = (Model.CurrentUICulture.Name == culture.Name) ? "selected" : "";
+        <li><a asp-route-culture="@culture.Name" asp-route-sitecoreRoute="@Model.CurrentSitecoreRoute">@culture.DisplayName</a></li>
+    }
+  </ul>
+</div>

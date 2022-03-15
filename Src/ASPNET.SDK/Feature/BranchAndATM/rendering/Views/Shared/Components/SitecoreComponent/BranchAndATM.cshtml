@@ -1,0 +1,98 @@
+@using DemoBank.Feature.BranchAndATM.Rendering.Models
+@using DemoBank.Foundation.GraphQL.Rendering.Response
+@model BranchAndATMModel
+@{
+    GraphQLBranchAndATMResponse branchAndATMResponse = null;
+    string querystringKey = "bA_FacilityType";
+    string bA_FacilityType = string.Empty;
+}
+
+@{
+    await OnInitializedAsync();
+
+    async Task OnInitializedAsync()
+    {
+        bA_FacilityType = Context.Request.Query[querystringKey];
+
+        if (!string.IsNullOrEmpty(bA_FacilityType))
+        {
+            var variable = new GraphQLBranchAndATMVariables
+                    {
+                        language = "en",
+                        rootItem = Model.BA_RootItemUrl.Value.Href,
+                        pageSize = Model.BA_PageSize.Value.ToString(),
+                        cursorValueToGetItemsAfter = "0",
+                        fieldsEqual = new Dictionary<string, string>[]{
+                        new Dictionary<string, string>
+                        {
+                            { "name", querystringKey } ,
+                            { "value", bA_FacilityType.ToString() }
+                        }
+                        }
+                    };
+
+            branchAndATMResponse = await ViewBag._consumer.GetBranchAndATM(variable);
+        }
+
+
+
+        <section class="page-section" id="services">
+            <div class="container px-4 px-lg-5">
+
+                <h1 class="display-4 text-white">
+                    <sc-text asp-for="@Model.BA_Title"></sc-text>
+                </h1>
+                <div class="card-body">
+                    <h5 class="card-title"><sc-text asp-for="@Model.BA_Description"></sc-text></h5>
+
+                    <form>
+                        @foreach (var filterType in Model.BA_TypeSource)
+                        {
+                            string isChecked = (string.Equals(filterType.Fields.Key.Value, bA_FacilityType)) ? "checked" : "";
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="BranchAndATMRadios" id="@filterType.Fields.Key.Value" value="@filterType.Fields.Key.Value" @isChecked>
+                                <label class="form-check-label" for="@filterType.Fields.Key.Value">
+                                    <sc-text asp-for="@filterType.Fields.Key"></sc-text>
+                                </label>
+                            </div>
+                        }
+                    </form>
+
+
+                </div>
+                <div class="card-footer text-muted">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                @foreach (var column in Model.BA_ResultCoumns)
+                                {
+                                    <th scope="col">@column.Fields.Key.Value</th>
+                                }
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (branchAndATMResponse != null)
+                            {
+                                @foreach (Item item in branchAndATMResponse.search.results.items)
+                                {
+                                    <tr>
+                                        <td>@item.item.bA_Name.value</td>
+                                        <td>@item.item.bA_FacilityType.value</td>
+                                        <td>@item.item.bA_Location.value</td>
+                                        <td>@item.item.bA_StartTime.value</td>
+                                        <td>@item.item.bA_EndTime.value</td>
+                                    </tr>
+                                }
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </section>
+    }
+
+
+}
