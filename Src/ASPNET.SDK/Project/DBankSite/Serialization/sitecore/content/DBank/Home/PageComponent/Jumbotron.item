@@ -1,0 +1,168 @@
+----item----
+version: 1
+id: {CA11A2BB-8605-47B5-8E19-76C3988A7CCA}
+database: master
+path: /sitecore/content/DBank/Home/PageComponent/Jumbotron
+parent: {DD81720B-D280-40F1-929E-FCCDB02D6C59}
+name: Jumbotron
+master: {00000000-0000-0000-0000-000000000000}
+template: {3544D2D2-BC9D-4372-BE0E-F03F59CCD1FF}
+templatekey: Card
+
+----version----
+language: en
+version: 1
+revision: 6bd4b045-c20c-4d59-9d6a-9020b4086574
+
+----field----
+field: {6DA84341-9A88-46E3-810D-9092C1D998CD}
+name: CardTitle
+key: cardtitle
+content-length: 32
+
+Start your journey with us today
+----field----
+field: {84C0DF91-066C-4365-8592-1BCD114EE4B8}
+name: CardDescription
+key: carddescription
+content-length: 156
+
+Opening an account with us became a lot easier. Use your online application and enjoy a banking relationship that’s packed with services and product offers.
+----field----
+field: {CCF2E614-DA8C-4F90-A839-8B6AD93FEBBC}
+name: CardImage
+key: cardimage
+content-length: 58
+
+<image mediaid="{72FC86B6-3197-4169-BF32-A9908CF05DA9}" />
+----field----
+field: {7A00990E-9BE9-4655-91AE-22C0463A7B32}
+name: CardLink
+key: cardlink
+content-length: 136
+
+<link text="Open account" anchor="" linktype="internal" class="" title=""  querystring="" id="{A84ADA39-C2C6-4A92-B0CC-8DF0F46F28AC}" />
+----field----
+field: {B06C7CF0-3308-4A45-9460-5633CC684EFF}
+name: CardParagraph
+key: cardparagraph
+content-length: 40
+
+Live your success with Priority Banking.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220308T172934Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6bd4b045-c20c-4d59-9d6a-9020b4086574
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220315T181010Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: ta-IN
+version: 1
+revision: a04937f1-6789-4fea-92a0-40141a082fba
+
+----field----
+field: {6DA84341-9A88-46E3-810D-9092C1D998CD}
+name: CardTitle
+key: cardtitle
+content-length: 45
+
+இன்று எங்களுடன் உங்கள் பயணத்தைத் தொடங்குங்கள்
+----field----
+field: {84C0DF91-066C-4365-8592-1BCD114EE4B8}
+name: CardDescription
+key: carddescription
+content-length: 172
+
+எங்களுடன் ஒரு கணக்கைத் திறப்பது மிகவும் எளிதானது. உங்கள் ஆன்லைன் பயன்பாட்டைப் பயன்படுத்தவும் மற்றும் சேவைகள் மற்றும் தயாரிப்பு சலுகைகளால் நிரம்பிய வங்கி உறவை அனுபவிக்கவும்.
+----field----
+field: {CCF2E614-DA8C-4F90-A839-8B6AD93FEBBC}
+name: CardImage
+key: cardimage
+content-length: 58
+
+<image mediaid="{72FC86B6-3197-4169-BF32-A9908CF05DA9}" />
+----field----
+field: {7A00990E-9BE9-4655-91AE-22C0463A7B32}
+name: CardLink
+key: cardlink
+content-length: 143
+
+<link text="கணக்கு திற" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{92406605-2A01-40A8-AFDB-5309F97DD2FC}" />
+----field----
+field: {B06C7CF0-3308-4A45-9460-5633CC684EFF}
+name: CardParagraph
+key: cardparagraph
+content-length: 55
+
+முன்னுரிமை வங்கிச் சேவையுடன் உங்கள் வெற்றியை வாழுங்கள்.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220315T180940Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a04937f1-6789-4fea-92a0-40141a082fba
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220315T181313Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

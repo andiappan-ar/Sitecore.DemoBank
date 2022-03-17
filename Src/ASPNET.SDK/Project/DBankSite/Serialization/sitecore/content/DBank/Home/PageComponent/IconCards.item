@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {AC3F4D7A-5F28-4CA3-BD69-073A245A724A}
+database: master
+path: /sitecore/content/DBank/Home/PageComponent/IconCards
+parent: {DD81720B-D280-40F1-929E-FCCDB02D6C59}
+name: IconCards
+master: {00000000-0000-0000-0000-000000000000}
+template: {3544D2D2-BC9D-4372-BE0E-F03F59CCD1FF}
+templatekey: Card
+
+----field----
+field: {D4A3DD9E-BA8F-4EB8-B296-D6B204F61F76}
+name: Elements
+key: elements
+content-length: 155
+
+{63CB64A0-017E-40A4-9EAA-20600D7E5C01}|{E955BF38-3B01-434C-857E-FA951380DAD2}|{AF5A50BE-0BDA-42D3-B836-253EDEFA23AF}|{378BC078-C0BD-4F7D-AE8F-5F8D62725A35}
+----version----
+language: en
+version: 1
+revision: 80657024-fb66-4466-911e-289eafb95d95
+
+----field----
+field: {6DA84341-9A88-46E3-810D-9092C1D998CD}
+name: CardTitle
+key: cardtitle
+content-length: 15
+
+At Your Service
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220306T131235Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+80657024-fb66-4466-911e-289eafb95d95
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220306T143036Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,105 @@
+----item----
+version: 1
+id: {883D85C5-79DA-437B-96D9-49D8DB666B28}
+database: master
+path: /sitecore/content/DBank/Home/PageComponent/FooterText
+parent: {DD81720B-D280-40F1-929E-FCCDB02D6C59}
+name: FooterText
+master: {00000000-0000-0000-0000-000000000000}
+template: {3544D2D2-BC9D-4372-BE0E-F03F59CCD1FF}
+templatekey: Card
+
+----version----
+language: en
+version: 1
+revision: 8270d8a4-6449-426e-91e5-fefeca16b52d
+
+----field----
+field: {6DA84341-9A88-46E3-810D-9092C1D998CD}
+name: CardTitle
+key: cardtitle
+content-length: 28
+
+Copyright © 2021 - Demo Bank
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220306T132839Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8270d8a4-6449-426e-91e5-fefeca16b52d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220315T180854Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ta-IN
+version: 1
+revision: afdfb4d0-2fa8-4254-ac40-9d9699af71b2
+
+----field----
+field: {6DA84341-9A88-46E3-810D-9092C1D998CD}
+name: CardTitle
+key: cardtitle
+content-length: 31
+
+பதிப்புரிமை © 2021 - டெமோ வங்கி
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220315T180840Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+afdfb4d0-2fa8-4254-ac40-9d9699af71b2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220315T180906Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

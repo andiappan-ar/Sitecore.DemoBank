@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {E955BF38-3B01-434C-857E-FA951380DAD2}
+database: master
+path: /sitecore/content/DBank/Home/PageComponent/IconCards/Contact Us
+parent: {AC3F4D7A-5F28-4CA3-BD69-073A245A724A}
+name: Contact Us
+master: {00000000-0000-0000-0000-000000000000}
+template: {3544D2D2-BC9D-4372-BE0E-F03F59CCD1FF}
+templatekey: Card
+
+----version----
+language: en
+version: 1
+revision: 052b12bb-fe57-4d71-b155-34186d4d78a2
+
+----field----
+field: {6DA84341-9A88-46E3-810D-9092C1D998CD}
+name: CardTitle
+key: cardtitle
+content-length: 10
+
+Contact Us
+----field----
+field: {84C0DF91-066C-4365-8592-1BCD114EE4B8}
+name: CardDescription
+key: carddescription
+content-length: 53
+
+24 hours customer service and AI support. Reach here.
+----field----
+field: {CCF2E614-DA8C-4F90-A839-8B6AD93FEBBC}
+name: CardImage
+key: cardimage
+content-length: 58
+
+<image mediaid="{54784A0C-35B1-4238-893E-409D8FAD7BEE}" />
+----field----
+field: {7A00990E-9BE9-4655-91AE-22C0463A7B32}
+name: CardLink
+key: cardlink
+content-length: 134
+
+<link text="Contact Us" anchor="" linktype="internal" class="" title=""  querystring="" id="{B345AF09-1CEC-4AD4-A5E7-28607AB35959}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220306T131732Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+052b12bb-fe57-4d71-b155-34186d4d78a2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220306T132657Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

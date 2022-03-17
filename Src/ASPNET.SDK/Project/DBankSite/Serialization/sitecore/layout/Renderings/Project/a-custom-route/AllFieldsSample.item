@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {127AD981-9A4C-4DCE-A9E6-C00A682C7E22}
+database: master
+path: /sitecore/layout/Renderings/Project/a-custom-route/AllFieldsSample
+parent: {FAADF5E4-2D0C-5F4E-9D56-4657FF0D9646}
+name: AllFieldsSample
+master: {00000000-0000-0000-0000-000000000000}
+template: {04646A89-996F-4EE7-878A-FFDBF1F0EF0D}
+templatekey: Json Rendering
+
+----field----
+field: {037FE404-DD19-4BF7-8E30-4DADF68B27B0}
+name: componentName
+key: componentname
+content-length: 15
+
+AllFieldsSample
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 58
+
+/sitecore/templates/Project/a-custom-route/AllFieldsSample
+----version----
+language: en
+version: 1
+revision: f34fb8e4-c148-4332-81ad-e0d060b1c07f
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220130T163650Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f34fb8e4-c148-4332-81ad-e0d060b1c07f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220130T170606Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

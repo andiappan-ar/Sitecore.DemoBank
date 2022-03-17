@@ -1,0 +1,140 @@
+----item----
+version: 1
+id: {E5E110E8-4DC7-4D5F-BC7B-93C54A5B8126}
+database: master
+path: /sitecore/content/DBank/Home/PageComponent/MainNavigationMenu/More
+parent: {29BA79A4-DF15-4712-95F7-FD4800599F42}
+name: More
+master: {00000000-0000-0000-0000-000000000000}
+template: {DF9D1506-8706-4FEE-AF5C-5338777B786D}
+templatekey: MainNavigationMenu
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+300
+----version----
+language: en
+version: 1
+revision: fa15d1f0-12bc-4723-bf6b-2218c91de625
+
+----field----
+field: {E0896812-26DB-44FA-9095-6C79722649BE}
+name: Link
+key: link
+content-length: 124
+
+<link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{0D201CF5-E787-4E7F-BF53-BE441146334C}" />
+----field----
+field: {370452C0-44ED-4CD7-B2B2-697B4CE7FEE5}
+name: DisplayName
+key: displayname
+content-length: 4
+
+More
+----field----
+field: {01D1D3C7-1028-4777-BC82-40A01EF50F87}
+name: Elements
+key: elements
+content-length: 38
+
+{B05AB12D-A3D1-4E02-BBD4-8F7680653507}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220305T092841Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fa15d1f0-12bc-4723-bf6b-2218c91de625
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220313T145749Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ta-IN
+version: 1
+revision: ec63aaed-fe04-43c9-9728-a22264d0faa4
+
+----field----
+field: {E0896812-26DB-44FA-9095-6C79722649BE}
+name: Link
+key: link
+content-length: 124
+
+<link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{0D201CF5-E787-4E7F-BF53-BE441146334C}" />
+----field----
+field: {370452C0-44ED-4CD7-B2B2-697B4CE7FEE5}
+name: DisplayName
+key: displayname
+content-length: 4
+
+மிகை
+----field----
+field: {01D1D3C7-1028-4777-BC82-40A01EF50F87}
+name: Elements
+key: elements
+content-length: 38
+
+{B05AB12D-A3D1-4E02-BBD4-8F7680653507}
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220315T161718Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ec63aaed-fe04-43c9-9728-a22264d0faa4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220315T161743Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

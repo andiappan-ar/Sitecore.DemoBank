@@ -1,0 +1,98 @@
+----item----
+version: 1
+id: {6FD128DC-CBAD-4B2F-B7CD-5AEEEB3FF786}
+database: master
+path: /sitecore/content/DBank/Home/PageComponent/GalleryCollection
+parent: {DD81720B-D280-40F1-929E-FCCDB02D6C59}
+name: GalleryCollection
+master: {00000000-0000-0000-0000-000000000000}
+template: {3544D2D2-BC9D-4372-BE0E-F03F59CCD1FF}
+templatekey: Card
+
+----field----
+field: {D4A3DD9E-BA8F-4EB8-B296-D6B204F61F76}
+name: Elements
+key: elements
+content-length: 233
+
+{CDA1BEF4-5467-45F5-B49D-BD1EC80C6357}|{F32DFCC7-8570-4A72-B4A6-68FFD6DB0C81}|{601F517F-FC74-477E-A3D6-E91AAE89562B}|{C24F47A5-1323-4641-90FA-DB682F0FFF28}|{E65DE882-5A66-4202-9343-EC350E212B4E}|{D3012EF2-839F-43DD-B94B-F0A11CB4F3A6}
+----version----
+language: en
+version: 1
+revision: b2ee7c86-5c4b-4861-9b8f-e3afe466bdee
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220306T132828Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b2ee7c86-5c4b-4861-9b8f-e3afe466bdee
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220306T143026Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ta-IN
+version: 1
+revision: a07770b3-fffb-41cd-930f-4c8f7de02c25
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220315T180911Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a07770b3-fffb-41cd-930f-4c8f7de02c25
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220315T180911Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
