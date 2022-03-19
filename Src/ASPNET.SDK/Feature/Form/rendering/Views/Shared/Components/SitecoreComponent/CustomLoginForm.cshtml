@@ -1,0 +1,20 @@
+@using DemoBank.Feature.Form.Rendering.Models
+@model CustomLoginFormModel
+
+<form action="/form/login" method="post">
+
+
+  <div class="container">
+    <label for="uname"><b> <sc-text asp-for="@Model.CF_UserNameLabel"></sc-text></b></label>
+    <input type="text" placeholder="Enter Username" name="username" required>
+
+    <label for="psw"><b> <sc-text asp-for="@Model.CF_PasswordLabel"></sc-text></b></label>
+    <input type="password" placeholder="Enter Password" name="password" required>
+
+    <button type="submit"><sc-text asp-for="@Model.CF_LoginButtonLabel"></sc-text></button>
+   
+  </div>
+
+</form>
+
+

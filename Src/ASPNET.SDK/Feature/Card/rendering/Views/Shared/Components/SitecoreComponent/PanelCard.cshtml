@@ -1,18 +1,19 @@
 @using DemoBank.Feature.Card.Rendering.Models
 @model CardModel
 
-<section class="page-section bg-primary" id="about">
-    <div class="container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-            <div class="col-lg-8 text-center">
-                <h2 class="text-white mt-0">
-                    <sc-text asp-for="@Model.CardTitle"></sc-text>
-                </h2>
-                <hr class="divider divider-light" />
-                <p class="text-white-75 mb-4"> <sc-text asp-for="@Model.CardDescription"></sc-text></p>
+<section class="page-section bg-primary">
 
-                <sc-link class="btn btn-light btn-xl" href="#services" asp-for="@Model.CardLink"></sc-link>
-            </div>
+    <div class="p-5 mb-4 bg-light rounded-3 ">
+        <div class="container-fluid py-5 text-center">
+            <h1 class="display-5 fw-bold">
+                <sc-text asp-for="@Model.CardTitle"></sc-text>
+            </h1>
+            <hr class="divider divider-light" />
+            <p class="fs-4 text-center">
+                <sc-text asp-for="@Model.CardDescription"></sc-text>
+            </p>
+            <sc-link class="btn btn-primary btn-xl" asp-for="@Model.CardLink"></sc-link>
         </div>
     </div>
+
 </section>

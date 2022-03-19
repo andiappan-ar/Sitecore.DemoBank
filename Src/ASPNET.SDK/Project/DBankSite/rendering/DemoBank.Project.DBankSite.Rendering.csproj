@@ -22,6 +22,7 @@
 	  <ProjectReference Include="..\..\..\Feature\Banner\rendering\DemoBank.Feature.Banner.Rendering.csproj" />
 	  <ProjectReference Include="..\..\..\Feature\BranchAndATM\rendering\DemoBank.Feature.BranchAndATM.Rendering.csproj" />
 	  <ProjectReference Include="..\..\..\Feature\Card\rendering\DemoBank.Feature.Card.Rendering.csproj" />
+	  <ProjectReference Include="..\..\..\Feature\Form\rendering\DemoBank.Feature.Form.Rendering.csproj" />
 	  <ProjectReference Include="..\..\..\Feature\LanguageSwitcher\rendering\DemoBank.Feature.LanguageSwitcher.Rendering.csproj" />
 	  <ProjectReference Include="..\..\..\Feature\Navigation\rendering\DemoBank.Feature.Navigation.Rendering.csproj" />
 	  <ProjectReference Include="..\..\..\Foundation\GraphQL\DemoBank.Foundation.GraphQL.Rendering.csproj" />

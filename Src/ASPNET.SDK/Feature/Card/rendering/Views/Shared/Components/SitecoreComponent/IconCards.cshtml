@@ -6,30 +6,34 @@
     <!-- Icon cards-->
     <section class="page-section" id="services">
         <div class="container px-4 px-lg-5">
+            <hr class="divider" />
             <h2 class="text-center mt-0"><sc-text asp-for="@Model.CardTitle"></sc-text></h2>
             <hr class="divider" />
             <div class="row gx-4 gx-lg-5">
                 @foreach (var card in Model.Elements)
                 {
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2">
-                                <i class=" fs-1 text-primary">
-                                    <sc-img class="img-thumbnail" asp-for="@card.Fields.CardImage"></sc-img>
-                                </i>
+
+
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="mt-5 card" style="width: 18rem;">
+                            <sc-img class="card-img-top" asp-for="@card.Fields.CardImage"></sc-img>
+                            <div class="card-body">
+                                <h5 class="card-title"><sc-text asp-for="@card.Fields.CardTitle"></sc-text></h5>
+                                <h6 class="card-subtitle mb-2 text-muted">*</h6>
+                                <p class="card-text">
+                                    <sc-text asp-for="@card.Fields.CardDescription"></sc-text>
+                                </p>
+
+                                <sc-link class="card-link" asp-for="@card.Fields.CardLink"></sc-link>
                             </div>
-                            <h3 class="h4 mb-2">
-                                <sc-text asp-for="@card.Fields.CardTitle"></sc-text>
-                            </h3>
-                            <p class="text-muted mb-0">
-                                <sc-text asp-for="@card.Fields.CardDescription"></sc-text>
-                            </p>
-                            <sc-link asp-for="@card.Fields.CardLink"></sc-link>
                         </div>
                     </div>
 
                 }
             </div>
+             <hr class="divider" />
         </div>
+          <hr class="divider" />
     </section>
 }

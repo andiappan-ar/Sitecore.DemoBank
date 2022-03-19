@@ -2,6 +2,7 @@ using DemoBank.Project.DBankSite.Rendering.Configuration;
 using DemoBank.Feature.Navigation.Rendering.Extensions;
 using DemoBank.Feature.Banner.Rendering.Extensions;
 using DemoBank.Feature.BranchAndATM.Rendering.Extensions;
+using DemoBank.Feature.Form.Rendering.Extensions;
 using DemoBank.Feature.Card.Rendering.Extensions;
 using DemoBank.Foundation.GraphQL.Rendering.Extensions;
 using Microsoft.AspNetCore.Builder;
@@ -56,7 +57,7 @@ namespace DemoBank.Project.DBankSite.Rendering
                 {
                     // If you add languages in Sitecore that this site/rendering host should support, then add them here.
                     var supportedCultures = new List<CultureInfo> { new CultureInfo(_defaultLanguage), 
-                        new CultureInfo("ta-IN"), new CultureInfo("ja-JP") };
+                        new CultureInfo("ta-IN") };
                     options.DefaultRequestCulture = new RequestCulture(_defaultLanguage, _defaultLanguage);
                     options.SupportedCultures = supportedCultures;
                     options.SupportedUICultures = supportedCultures;
@@ -80,18 +81,7 @@ namespace DemoBank.Project.DBankSite.Rendering
               .AddHttpHandler("default", Configuration.LayoutServiceUri)
               .AsDefaultHandler();
 
-            // Configure Okta Integration
-            //services.AddFoundationUser(DotNetConfiguration);
-
-            //services.Configure<CookiePolicyOptions>(options =>
-            //{
-            //    // This lambda determines whether user consent for non-essential cookies is needed for a given request.
-            //    options.CheckConsentNeeded = context => true;
-            //    options.MinimumSameSitePolicy = SameSiteMode.Unspecified;
-            //    // Handling SameSite cookie according to https://docs.microsoft.com/en-us/aspnet/core/security/samesite?view=aspnetcore-3.1
-            //    options.HandleSameSiteCookieCompatibility();
-            //});
-
+           
             // Register the Sitecore Rendering Engine services.
             services.AddSitecoreRenderingEngine(options =>
             {
@@ -102,7 +92,7 @@ namespace DemoBank.Project.DBankSite.Rendering
                   .AddFeatureBranchAndATM()
                   //.AddFoundationPeople()
                   .AddFeatureCard()
-                  //.AddFeatureForms()
+                  .AddFeatureForm()
                   .AddModelBoundView<ContentBlockModel>("ContentBlock")                  
                   .AddModelBoundView<Card>("FooterText")                  
                   .AddDefaultPartialView("_ComponentNotFound");
@@ -158,12 +148,12 @@ namespace DemoBank.Project.DBankSite.Rendering
                 //  builder => builder.UseHttpsRedirection());
             }
 
-            //Add recirects for old mvp pages
-            var options = new RewriteOptions()
-              .AddRedirect("mvps/(.*)", "Directory?fc_personyear=$1")
-              .AddRedirect("mvps$", "Directory")
-              .AddRedirect("Search(.*)", "Directory$1");
-            app.UseRewriter(options);
+            ////Add recirects for old mvp pages
+            //var options = new RewriteOptions()
+            //  .AddRedirect("mvps/(.*)", "Directory?fc_personyear=$1")
+            //  .AddRedirect("mvps$", "Directory")
+            //  .AddRedirect("Search(.*)", "Directory$1");
+            //app.UseRewriter(options);
             // The Experience Editor endpoint should not be enabled in production DMZ.
             // See the SDK documentation for details.
             if (Configuration.EnableExperienceEditor)
@@ -174,28 +164,9 @@ namespace DemoBank.Project.DBankSite.Rendering
             app.UseRouting();
             app.UseStaticFiles();
             app.UseRequestLocalization();
-            // Enable ASP.NET Core Localization, which is required for Sitecore content localization.
-            //app.UseRequestLocalization(options =>
-            //{
-            //    // If you add languages in Sitecore which this site / Rendering Host should support, add them here.
-            //    var supportedCultures = new List<CultureInfo> { 
-            //        new CultureInfo(_defaultLanguage),
-            //        new CultureInfo("ta-in"),
-            //    };
-            //    options.DefaultRequestCulture = new RequestCulture(_defaultLanguage, _defaultLanguage);
-            //    options.SupportedCultures = supportedCultures;
-            //    options.SupportedUICultures = supportedCultures;
+           
 
-            //    // Allow culture to be resolved via standard Sitecore URL prefix and query string (sc_lang).
-            //    options.UseSitecoreRequestLocalization();
-            //});
-
-
-
-            // Configure Okta Integration
-            //app.UseFoundationUser();
-
-            //app.UseFeatureForms();
+            app.UseFeatureForms();
 
             // app.UseCookiePolicy();
 

@@ -12,5 +12,7 @@ namespace DemoBank.Feature.Banner.Rendering.Models
         public HyperLinkField CardLink { get; set; }
 
         public ContentListField<BannerModel> Elements { get; set; }
+
+        
     }
 }

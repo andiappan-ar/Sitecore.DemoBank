@@ -43,6 +43,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoBank.Feature.LanguageSw
 EndProject
 Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "DemoBank.Project.DBankSite.Serialization", "Project\DBankSite\Serialization\DemoBank.Project.DBankSite.Serialization.scproj", "{E2B02AD7-803D-4F69-88C1-8BA7D25E8001}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Form", "Form", "{AC36D8AA-0D4A-442F-A259-FA64FDF2076D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoBank.Feature.Form.Rendering", "Feature\Form\rendering\DemoBank.Feature.Form.Rendering.csproj", "{D595DF14-32B4-4180-BD52-3E7CAC0073B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,10 @@ Global
 		{E2B02AD7-803D-4F69-88C1-8BA7D25E8001}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2B02AD7-803D-4F69-88C1-8BA7D25E8001}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E2B02AD7-803D-4F69-88C1-8BA7D25E8001}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D595DF14-32B4-4180-BD52-3E7CAC0073B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D595DF14-32B4-4180-BD52-3E7CAC0073B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D595DF14-32B4-4180-BD52-3E7CAC0073B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D595DF14-32B4-4180-BD52-3E7CAC0073B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,6 +116,8 @@ Global
 		{6DFA43CE-3CFA-48E8-B764-EE355CA8103D} = {DF0DE06E-2CD9-4FA1-8E66-55C8BF2D04CD}
 		{F1470411-73E2-4760-8AB6-91419B318D34} = {6DFA43CE-3CFA-48E8-B764-EE355CA8103D}
 		{E2B02AD7-803D-4F69-88C1-8BA7D25E8001} = {226106BF-642B-4F9C-9F0D-F16B5C733D1C}
+		{AC36D8AA-0D4A-442F-A259-FA64FDF2076D} = {DF0DE06E-2CD9-4FA1-8E66-55C8BF2D04CD}
+		{D595DF14-32B4-4180-BD52-3E7CAC0073B1} = {AC36D8AA-0D4A-442F-A259-FA64FDF2076D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7EA9046F-3F16-41D0-B20F-B8DC453488BF}

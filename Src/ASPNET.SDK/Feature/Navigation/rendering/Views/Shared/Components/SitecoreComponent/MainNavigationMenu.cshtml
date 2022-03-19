@@ -3,26 +3,45 @@
 @if (Model != null)
 {
     <!-- Navigation-->
-     
-            <sc-link class="navbar-brand" asp-for="'ta-in'@Model.Link" culture="ta-in">
-                <sc-text asp-for="@Model.DisplayName"></sc-text>
-            </sc-link>
-           @* <a class="navbar-brand" href="#page-top">@Model.DisplayName</a>*@
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                    @foreach (var nav in Model.Elements)
-                    {
-                        <li class="nav-item">
-                            <sc-link class="nav-link" asp-for="@nav.Fields.Link" lang="ta-in">
-                                <sc-text asp-for="@nav.Fields.DisplayName"></sc-text>
-                            </sc-link>
-                        </li>
-                    }
-                </ul>
-            </div>
-       
+    <sc-link class="navbar-brand" asp-for="@Model.Link">
+        <sc-text asp-for="@Model.DisplayName"></sc-text>
+    </sc-link>
 
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            @foreach (var nav in Model.Elements)
+            {
+                <li class="nav-item">
+                    @if (nav.Fields.Elements.Any())
+                    {
+                    <li class="nav-item dropdown">
+                        <sc-link class="nav-link  dropdown-toggle" role="button" data-bs-toggle="dropdown" asp-for="@nav.Fields.Link">
+                            <sc-text asp-for="@nav.Fields.DisplayName"></sc-text>
+                        </sc-link>
+                        <ul class="dropdown-menu">
+                                @foreach (var innerNav in nav.Fields.Elements)
+                                {
+                                <sc-link class="dropdown-item" asp-for="@innerNav.Fields.Link">
+                                    <sc-text asp-for="@innerNav.Fields.DisplayName"></sc-text>
+                                </sc-link>
+                                }
+                        </ul>
+                    </li>
+                    }
+                    else
+                    {
+                    <sc-link class="nav-link" asp-for="@nav.Fields.Link">
+                        <sc-text asp-for="@nav.Fields.DisplayName"></sc-text>
+                    </sc-link>
+                    }
+                </li>
+            }
+        </ul>
+    </div>
 }
 
 

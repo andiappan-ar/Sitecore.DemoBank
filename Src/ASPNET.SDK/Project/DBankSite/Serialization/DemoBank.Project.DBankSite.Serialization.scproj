@@ -6,14 +6,16 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e2b02ad7-803d-4f69-88c1-8ba7d25e8001</ProjectGuid>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <SourceWebPhysicalPath>..\..\rendering</SourceWebPhysicalPath>
-    <SourceWebProject>{5d3e9abb-dd21-495d-9feb-5e5d5a74054a}|Project\DBankSite\rendering\DemoBank.Project.DBankSite.Rendering.csproj</SourceWebProject>
-    <SourceWebVirtualPath>/DemoBank.Project.DBankSite.Rendering.csproj</SourceWebVirtualPath>
     <SitecoreDatabase>master</SitecoreDatabase>
     <CompactSitecoreItemsInProjectFile>True</CompactSitecoreItemsInProjectFile>
     <AssemblyName>DemoBank.Project.DBankSite.Serialization</AssemblyName>
     <Name>DemoBank.Project.DBankSite.Serialization</Name>
     <RootNamespace>DemoBank.Project.DBankSite.Serialization</RootNamespace>
+    <ManageRoles>False</ManageRoles>
+    <AssemblyStatus>Exclude</AssemblyStatus>
+    <SourceWebVirtualPath>/DemoBank.Project.DBankSite.Rendering.csproj</SourceWebVirtualPath>
+    <SourceWebProject>{5d3e9abb-dd21-495d-9feb-5e5d5a74054a}|Project\DBankSite\rendering\DemoBank.Project.DBankSite.Rendering.csproj</SourceWebProject>
+    <SourceWebPhysicalPath>..\rendering</SourceWebPhysicalPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -264,6 +266,12 @@
     <SitecoreItem Include="sitecore\templates\Project\DemoBank\PageType\App Route\Page Metadata\pageTitle.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
     <SitecoreItem Include="sitecore\templates\Project\DemoBank\PageType\PageComponent.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
     <SitecoreItem Include="sitecore\templates\Project\DemoBank\PageType\PageComponent\__Standard Values.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\rendering\DemoBank.Project.DBankSite.Rendering.csproj">
+      <Project>{5d3e9abb-dd21-495d-9feb-5e5d5a74054a}</Project>
+      <Name>DemoBank.Project.DBankSite.Rendering</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
 </Project>
