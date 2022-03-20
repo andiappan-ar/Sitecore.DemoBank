@@ -20,6 +20,9 @@ Here will have a combination of Headless/Head codes.Some key structures.
 
 #### /Foundation layer
 
+## Setup
+
+## Get started
 
 ## Site modules
 This sample site contains common components, multiple sites , multilingual implementation and so on.
