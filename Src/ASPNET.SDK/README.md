@@ -21,8 +21,19 @@ Here will have a combination of Headless/Head codes.Some key structures.
 #### /Foundation layer
 
 ## Setup
+#### Pre-requisite
+* Sitecore XP with Headless service compatability
+* JSS/Headless service
+* .Net core MVC rendering host application
 
-## Get started
+#### Serialization
+Use TDS project to serialize sample content items, template, endering, placeholder.
+
+#### Platform project artifacts
+Deploy Platform related artifcats in SItecore XP. Sample Project-Siteefinition, Foundation-Pipelines
+
+#### Rendering host
+Rendering host is ready to run.
 
 ## Site modules
 This sample site contains common components, multiple sites , multilingual implementation and so on.
