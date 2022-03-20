@@ -44,7 +44,7 @@ namespace DemoBank.Foundation.SitecoreExtensions.Platform.Pipelines
                 ID targetID = database.Aliases.GetTargetID(path);
                 if (targetID.IsNull)
                 {
-                    Context.Item = Context.Database.GetItem(string.Concat(Context.Site.StartPath,Settings.GetSetting("Mvp.404PageName")));
+                    Context.Item = Context.Database.GetItem(string.Concat(Context.Site.StartPath,Settings.GetSetting("DemoBank.404PageName")));
                     args.RequestContext.HttpContext.Response.StatusCode = (int)HttpStatusCode.NotFound;
 
                     string message = string.Concat("An alias for \"", path, "\" exists, but points to a non-existing item.");

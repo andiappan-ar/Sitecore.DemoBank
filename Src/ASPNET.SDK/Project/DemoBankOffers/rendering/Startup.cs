@@ -1,22 +1,20 @@
-using DemoBank.Project.DBankSite.Rendering.Configuration;
-using DemoBank.Feature.Navigation.Rendering.Extensions;
 using DemoBank.Feature.Banner.Rendering.Extensions;
 using DemoBank.Feature.BranchAndATM.Rendering.Extensions;
-using DemoBank.Feature.Form.Rendering.Extensions;
 using DemoBank.Feature.Card.Rendering.Extensions;
+using DemoBank.Feature.Form.Rendering.Extensions;
+using DemoBank.Feature.Navigation.Rendering.Extensions;
 using DemoBank.Foundation.GraphQL.Rendering.Extensions;
+using DemoBank.Project.DemoBankOffers.Rendering.Configuration;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Localization;
-using Microsoft.AspNetCore.Rewrite;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Sitecore.AspNet.ExperienceEditor;
 using Sitecore.AspNet.RenderingEngine.Extensions;
 using Sitecore.AspNet.RenderingEngine.Localization;
-using Sitecore.AspNet.Tracking;
 using Sitecore.LayoutService.Client.Extensions;
 using Sitecore.LayoutService.Client.Newtonsoft.Extensions;
 using Sitecore.LayoutService.Client.Request;
@@ -25,7 +23,7 @@ using System.Globalization;
 //using SitecoreNetCore.Models;
 //using SitecoreNetCore.Sitecore.Configuration;
 
-namespace DemoBank.Project.DBankSite.Rendering
+namespace DemoBank.Project.DemoBankOffers.Rendering
 {
     public class Startup
     {
@@ -57,7 +55,7 @@ namespace DemoBank.Project.DBankSite.Rendering
                 {
                     // If you add languages in Sitecore that this site/rendering host should support, then add them here.
                     var supportedCultures = new List<CultureInfo> { new CultureInfo(_defaultLanguage), 
-                        new CultureInfo("ta-IN") };
+                         };
                     options.DefaultRequestCulture = new RequestCulture(_defaultLanguage, _defaultLanguage);
                     options.SupportedCultures = supportedCultures;
                     options.SupportedUICultures = supportedCultures;
@@ -92,7 +90,7 @@ namespace DemoBank.Project.DBankSite.Rendering
                   .AddFeatureBranchAndATM()
                   //.AddFoundationPeople()
                   .AddFeatureCard()
-                  .AddFeatureForm()                                 
+                  .AddFeatureForm()                            
                   .AddDefaultPartialView("_ComponentNotFound");
             })
               // Includes forwarding of Scheme as X-Forwarded-Proto to the Layout Service, so that
