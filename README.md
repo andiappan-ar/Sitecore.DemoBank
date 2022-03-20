@@ -1,4 +1,4 @@
-<h1 align="center">Sitecore.DemoBank</h1>
+<h1 align="center">Demo Bank Sample website</h1>
 This is a sample project using different source technologies this project is made.
 
 ## Available source projects
