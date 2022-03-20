@@ -13,9 +13,6 @@
     <RootNamespace>DemoBank.Project.DBankSite.Serialization</RootNamespace>
     <ManageRoles>False</ManageRoles>
     <AssemblyStatus>Exclude</AssemblyStatus>
-    <SourceWebVirtualPath>/DemoBank.Project.DBankSite.Rendering.csproj</SourceWebVirtualPath>
-    <SourceWebProject>{5d3e9abb-dd21-495d-9feb-5e5d5a74054a}|Project\DBankSite\rendering\DemoBank.Project.DBankSite.Rendering.csproj</SourceWebProject>
-    <SourceWebPhysicalPath>..\rendering</SourceWebPhysicalPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,8 +20,12 @@
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
     <SitecoreDeployFolder>C:\inetpub\wwwroot\arsc.dev.local</SitecoreDeployFolder>
     <SitecoreWebUrl>https://arsc.dev.local/</SitecoreWebUrl>
-    <SitecoreAccessGuid>c5cf7e4a-28a3-4176-a093-7b5fc527d0a3</SitecoreAccessGuid>
+    <SitecoreAccessGuid>0de22a61-26ff-421c-af65-d7fc2a85bd65</SitecoreAccessGuid>
     <InstallSitecoreConnector>True</InstallSitecoreConnector>
+    <DisableFileDeployment>True</DisableFileDeployment>
+    <LightningDeployMode>False</LightningDeployMode>
+    <EnableContainerDeployment>False</EnableContainerDeployment>
+    <ConnectorTimeoutSeconds>120</ConnectorTimeoutSeconds>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <DebugSymbols>false</DebugSymbols>
@@ -266,12 +267,6 @@
     <SitecoreItem Include="sitecore\templates\Project\DemoBank\PageType\App Route\Page Metadata\pageTitle.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
     <SitecoreItem Include="sitecore\templates\Project\DemoBank\PageType\PageComponent.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
     <SitecoreItem Include="sitecore\templates\Project\DemoBank\PageType\PageComponent\__Standard Values.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\rendering\DemoBank.Project.DBankSite.Rendering.csproj">
-      <Project>{5d3e9abb-dd21-495d-9feb-5e5d5a74054a}</Project>
-      <Name>DemoBank.Project.DBankSite.Rendering</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
 </Project>
