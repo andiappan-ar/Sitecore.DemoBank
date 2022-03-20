@@ -57,6 +57,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoBank.Project.DemoBankOf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoBank.Project.DemoBankOffers.Rendering", "Project\DemoBankOffers\rendering\DemoBank.Project.DemoBankOffers.Rendering.csproj", "{3AD14D09-0DCE-417F-B50E-238619A11EFA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sitemap", "Sitemap", "{570EB0A0-2534-4E9D-88A9-9C73F4E42DEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoBank.Feature.Sitemap.Rendering", "Feature\Sitemap\rendering\DemoBank.Feature.Sitemap.Rendering.csproj", "{0835FF0F-1204-44BD-A224-9D3CC8BFE5EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,10 @@ Global
 		{3AD14D09-0DCE-417F-B50E-238619A11EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AD14D09-0DCE-417F-B50E-238619A11EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AD14D09-0DCE-417F-B50E-238619A11EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0835FF0F-1204-44BD-A224-9D3CC8BFE5EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0835FF0F-1204-44BD-A224-9D3CC8BFE5EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0835FF0F-1204-44BD-A224-9D3CC8BFE5EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0835FF0F-1204-44BD-A224-9D3CC8BFE5EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -145,6 +153,8 @@ Global
 		{4B8B1F32-ED03-43BC-94D7-15D9D8EEA420} = {211B732B-25D7-43BF-AB84-16604E1C4890}
 		{F48AF202-9633-4D6A-BD49-36AC3D8FEFEC} = {4B8B1F32-ED03-43BC-94D7-15D9D8EEA420}
 		{3AD14D09-0DCE-417F-B50E-238619A11EFA} = {4B8B1F32-ED03-43BC-94D7-15D9D8EEA420}
+		{570EB0A0-2534-4E9D-88A9-9C73F4E42DEB} = {DF0DE06E-2CD9-4FA1-8E66-55C8BF2D04CD}
+		{0835FF0F-1204-44BD-A224-9D3CC8BFE5EB} = {570EB0A0-2534-4E9D-88A9-9C73F4E42DEB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7EA9046F-3F16-41D0-B20F-B8DC453488BF}

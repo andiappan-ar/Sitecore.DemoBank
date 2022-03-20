@@ -29,5 +29,7 @@ namespace DemoBank.Project.DemoBankOffers.Rendering.Configuration
 
         public string GraphQLURI { get; set; }
 
+        public string SitemapURI { get; set; }
+
     }
 }

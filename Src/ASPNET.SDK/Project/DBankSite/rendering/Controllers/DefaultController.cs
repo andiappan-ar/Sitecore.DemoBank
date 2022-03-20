@@ -6,6 +6,7 @@ using Sitecore.AspNet.RenderingEngine.Filters;
 using Sitecore.LayoutService.Client.Exceptions;
 using Sitecore.LayoutService.Client.Response.Model;
 using System.Net;
+using System.Xml;
 
 namespace DemoBank.Project.DBankSite.Rendering
 {
@@ -66,6 +67,6 @@ namespace DemoBank.Project.DBankSite.Rendering
             // TODO: Do we want to add logic here to confirm connectivity with SC etc?
 
             return Ok("Healthy");
-        }
+        }      
     }
 }

@@ -5,6 +5,7 @@ using DemoBank.Feature.Form.Rendering.Extensions;
 using DemoBank.Feature.Navigation.Rendering.Extensions;
 using DemoBank.Foundation.GraphQL.Rendering.Extensions;
 using DemoBank.Project.DemoBankOffers.Rendering.Configuration;
+using DemoBank.Feature.Sitemap.Rendering.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpOverrides;
@@ -109,6 +110,7 @@ namespace DemoBank.Project.DemoBankOffers.Rendering
             //});
 
             services.AddFoundationGraphQL(Configuration.GraphQLURI);
+            services.AddFeatureSitemap(Configuration.SitemapURI);
             // Enable support for robot detection.
             //services.AddSitecoreVisitorIdentification(options =>
             //{
