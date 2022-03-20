@@ -19,14 +19,14 @@ namespace DemoBank.Feature.LanguageSwitcher.Rendering.ViewComponents
 
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            var cultureFeature = HttpContext.Features.Get<IRequestCultureFeature>();
+            var cultureFeature =  HttpContext.Features.Get<IRequestCultureFeature>();
             var languageSwitcherModel = new LanguageSwitcherModel
             {
                 SupportedCultures = _localizationOptions.Value.SupportedCultures.ToList(),
                 CurrentUICulture = cultureFeature.RequestCulture.Culture,
                 CurrentSitecoreRoute = this.HttpContext.Request.RouteValues["sitecoreRoute"]?.ToString() ?? ""
             };
-            return View(languageSwitcherModel);
+            return  View(languageSwitcherModel);
         }
     }
 }

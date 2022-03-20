@@ -6,7 +6,6 @@ using Sitecore.AspNet.RenderingEngine.Filters;
 using Sitecore.LayoutService.Client.Exceptions;
 using Sitecore.LayoutService.Client.Response.Model;
 using System.Net;
-using System.Threading.Tasks;
 
 namespace DemoBank.Project.DBankSite.Rendering
 {

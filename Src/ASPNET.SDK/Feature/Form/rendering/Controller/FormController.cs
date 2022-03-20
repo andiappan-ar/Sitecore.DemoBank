@@ -53,7 +53,7 @@ namespace DemoBank.Feature.Form.Rendering
             }
             catch (Exception ex)
             {
-                throw;
+                throw ex;
             }
 
             return Json(new { });

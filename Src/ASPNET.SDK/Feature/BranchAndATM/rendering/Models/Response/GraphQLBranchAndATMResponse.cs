@@ -2,21 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DemoBank.Foundation.GraphQL.Rendering.Response
+namespace DemoBank.Feature.BranchAndATM.Rendering.Models.Response
 {
-    //public class GraphQLBranchAndATMResponse
-    //{
-    //    public string BA_Name { get; set; }
-    //    public string BA_Location { get; set; }
-    //    public string BA_StartTime { get; set; }
-    //    public string BA_EndTime { get; set; }
-    //    public string BA_FacilityType { get; set; }
-    //}
 
-    //public class GraphQLBranchAndATMResponseCollection
-    //{
-    //    public List<GraphQLBranchAndATMResponse> Result { get; set; }
-    //}
 
     public class GraphQLBranchAndATMVariables
     {

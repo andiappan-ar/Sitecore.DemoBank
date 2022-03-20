@@ -1,6 +1,8 @@
 @using DemoBank.Feature.BranchAndATM.Rendering.Models
-@using DemoBank.Foundation.GraphQL.Rendering.Response
+@using DemoBank.Feature.BranchAndATM.Rendering.Models.Response
+@using DemoBank.Feature.BranchAndATM.Rendering.Queries
 @model BranchAndATMModel
+
 @{
     GraphQLBranchAndATMResponse branchAndATMResponse = null;
     string querystringKey = "bA_FacilityType";
@@ -31,7 +33,7 @@
                         }
                     };
 
-            branchAndATMResponse = await ViewBag._consumer.GetBranchAndATM(variable);
+            branchAndATMResponse = await ViewBag._consumer.GetBranchAndATM<GraphQLBranchAndATMResponse,GraphQLBranchAndATMVariables>(QueriesConstant.BranchAndATMTypeQuery, variable);
         }
 
 

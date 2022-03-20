@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Response\**" />
+    <EmbeddedResource Remove="Response\**" />
+    <None Remove="Response\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Sitecore.Assemblies.Platform" Version="10.2.0" />
+    <PackageReference Include="Sitecore.Assemblies.SitecoreHeadlessServicesServer" Version="19.0.0" />
+    <PackageReference Include="Sitecore.Kernel" Version="10.1.0" />
+    <PackageReference Include="Sitecore.LayoutService" Version="10.1.0" />
+    <PackageReference Include="Sitecore.LayoutService.Mvc" Version="10.1.0" />
+    <PackageReference Include="Sitecore.Mvc" Version="10.1.0" />
+  </ItemGroup>
+
+</Project>
