@@ -1,4 +1,4 @@
-<h1 align="center">Sitecore.DemoBank</h1>
+<h1 align="center">Demo Bank Sample website</h1>
 This is a sample project using different source technologies this project is made.
 
 ## Available source projects
@@ -26,6 +26,7 @@ Get more technical details in respective source modules.
 | Custom form submission  | Custom form submission| ✅	Available |
 | 404  | Not found page implementation| ✅	Available |
 | GraphQL Advaced  | GraphQL advance concepts custom index, caching, complex filter | ⏳	InProgress |
+| Deployment script  | Auto buildscript or development environement | ⏳	InProgress |
 | Sitecore forms  | Pending with sitecore | ⚠️	Pending |
 
 ## Site looks like below
