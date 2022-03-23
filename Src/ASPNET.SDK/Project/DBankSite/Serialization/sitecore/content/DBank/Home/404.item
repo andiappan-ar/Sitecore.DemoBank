@@ -1,0 +1,93 @@
+----item----
+version: 1
+id: {4705BACD-1EC1-4C82-ABC6-4ACF7D4B37DC}
+database: master
+path: /sitecore/content/DBank/Home/404
+parent: {550CAD08-AB11-4649-9546-3179EC5B2E11}
+name: 404
+master: {00000000-0000-0000-0000-000000000000}
+template: {6A50419C-6333-478A-A188-A48840833389}
+templatekey: App Route
+
+----field----
+field: {B1BC4009-E785-46DA-96DF-38F67A782E70}
+name: HideFromSitemap
+key: hidefromsitemap
+content-length: 1
+
+1
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 535
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{0BFECB75-DB5B-4283-92AB-9C8A4824FE06}"><p:d /></r><r uid="{B57BFF4D-C96E-4D55-B879-05B93D3CC116}"><p:d /></r><r uid="{96C05E70-E1EA-42F8-B72C-A4E30DAE24AB}"><p:d /></r><r uid="{100A7F5E-5AC7-4670-B4C8-34381416D55B}"><p:d /></r><r uid="{D99974E1-CAEC-44DE-B917-F04A72C2C8CE}" p:after="*[1=2]" s:ds="{E69A2A30-23B6-46B2-9FE5-EDD6AA1109BD}" s:id="{ED5F4B71-1113-4EDB-979E-0A35E4E5F2EE}" s:par="css" s:ph="/main" s:ccb="Clear on publish" /></d></r>
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}
+----version----
+language: en
+version: 1
+revision: b59046c8-a227-4793-aa31-06aba2bd4078
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220313T145337Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b59046c8-a227-4793-aa31-06aba2bd4078
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220320T104424Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{AF32C98B-C828-42AF-A649-74C1DE3303FB}
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

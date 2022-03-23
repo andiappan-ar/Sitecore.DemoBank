@@ -12,22 +12,22 @@ templatekey: Card
 ----version----
 language: en
 version: 1
-revision: b9b92e86-3326-43b1-90ef-57113804414a
+revision: 3e8d6c19-e955-45a2-a6bd-96c49760fdeb
 
 ----field----
 field: {6DA84341-9A88-46E3-810D-9092C1D998CD}
 name: CardTitle
 key: cardtitle
-content-length: 6
+content-length: 10
 
-DBank!
+Demo Bank!
 ----field----
 field: {84C0DF91-066C-4365-8592-1BCD114EE4B8}
 name: CardDescription
 key: carddescription
-content-length: 103
+content-length: 107
 
-DBank is government owned bank and is one of the largest banking groups in the UAE in terms of assets.!
+Demo Bank is government owned bank and is one of the largest banking groups in the UAE in terms of assets.!
 ----field----
 field: {7A00990E-9BE9-4655-91AE-22C0463A7B32}
 name: CardLink
@@ -48,14 +48,82 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b9b92e86-3326-43b1-90ef-57113804414a
+3e8d6c19-e955-45a2-a6bd-96c49760fdeb
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20220306T142243Z
+20220319T192508Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ta-IN
+version: 1
+revision: bab37d9c-8d49-4712-bbe2-cd9af8a6de0e
+
+----field----
+field: {6DA84341-9A88-46E3-810D-9092C1D998CD}
+name: CardTitle
+key: cardtitle
+content-length: 11
+
+டெமோ வங்கி!
+----field----
+field: {84C0DF91-066C-4365-8592-1BCD114EE4B8}
+name: CardDescription
+key: carddescription
+content-length: 152
+
+டெமோ வங்கி அரசாங்கத்திற்கு சொந்தமான வங்கியாகும் மற்றும் சொத்துக்களின் அடிப்படையில் ஐக்கிய அரபு எமிரேட்ஸில் உள்ள மிகப்பெரிய வங்கி குழுக்களில் ஒன்றாகும்.!
+----field----
+field: {7A00990E-9BE9-4655-91AE-22C0463A7B32}
+name: CardLink
+key: cardlink
+content-length: 150
+
+<link text="மேலதிக விபரங்கள்!" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{0D201CF5-E787-4E7F-BF53-BE441146334C}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220319T192302Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bab37d9c-8d49-4712-bbe2-cd9af8a6de0e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220319T192441Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

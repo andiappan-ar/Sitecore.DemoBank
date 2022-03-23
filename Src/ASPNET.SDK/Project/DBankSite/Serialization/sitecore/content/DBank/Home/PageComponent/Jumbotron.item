@@ -9,10 +9,17 @@ master: {00000000-0000-0000-0000-000000000000}
 template: {3544D2D2-BC9D-4372-BE0E-F03F59CCD1FF}
 templatekey: Card
 
+----field----
+field: {CCF2E614-DA8C-4F90-A839-8B6AD93FEBBC}
+name: CardImage
+key: cardimage
+content-length: 58
+
+<image mediaid="{4AB24835-6ECA-47E8-A53E-C0354D7BDAAA}" />
 ----version----
 language: en
 version: 1
-revision: 6bd4b045-c20c-4d59-9d6a-9020b4086574
+revision: 87bf4b84-7012-4303-a470-0c66ad8c2e19
 
 ----field----
 field: {6DA84341-9A88-46E3-810D-9092C1D998CD}
@@ -29,19 +36,12 @@ content-length: 156
 
 Opening an account with us became a lot easier. Use your online application and enjoy a banking relationship that’s packed with services and product offers.
 ----field----
-field: {CCF2E614-DA8C-4F90-A839-8B6AD93FEBBC}
-name: CardImage
-key: cardimage
-content-length: 58
-
-<image mediaid="{72FC86B6-3197-4169-BF32-A9908CF05DA9}" />
-----field----
 field: {7A00990E-9BE9-4655-91AE-22C0463A7B32}
 name: CardLink
 key: cardlink
-content-length: 136
+content-length: 145
 
-<link text="Open account" anchor="" linktype="internal" class="" title=""  querystring="" id="{A84ADA39-C2C6-4A92-B0CC-8DF0F46F28AC}" />
+<link text="Open account" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{92406605-2A01-40A8-AFDB-5309F97DD2FC}" />
 ----field----
 field: {B06C7CF0-3308-4A45-9460-5633CC684EFF}
 name: CardParagraph
@@ -62,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-6bd4b045-c20c-4d59-9d6a-9020b4086574
+87bf4b84-7012-4303-a470-0c66ad8c2e19
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20220315T181010Z
+20220319T180714Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -87,7 +87,7 @@ content-length: 5
 ----version----
 language: ta-IN
 version: 1
-revision: a04937f1-6789-4fea-92a0-40141a082fba
+revision: 6904d885-49b3-4767-b809-c72fc4f06278
 
 ----field----
 field: {6DA84341-9A88-46E3-810D-9092C1D998CD}
@@ -103,13 +103,6 @@ key: carddescription
 content-length: 172
 
 எங்களுடன் ஒரு கணக்கைத் திறப்பது மிகவும் எளிதானது. உங்கள் ஆன்லைன் பயன்பாட்டைப் பயன்படுத்தவும் மற்றும் சேவைகள் மற்றும் தயாரிப்பு சலுகைகளால் நிரம்பிய வங்கி உறவை அனுபவிக்கவும்.
-----field----
-field: {CCF2E614-DA8C-4F90-A839-8B6AD93FEBBC}
-name: CardImage
-key: cardimage
-content-length: 58
-
-<image mediaid="{72FC86B6-3197-4169-BF32-A9908CF05DA9}" />
 ----field----
 field: {7A00990E-9BE9-4655-91AE-22C0463A7B32}
 name: CardLink
@@ -151,14 +144,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-a04937f1-6789-4fea-92a0-40141a082fba
+6904d885-49b3-4767-b809-c72fc4f06278
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20220315T181313Z
+20220319T172106Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

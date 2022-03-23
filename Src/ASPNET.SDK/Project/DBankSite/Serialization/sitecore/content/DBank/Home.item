@@ -10,6 +10,13 @@ template: {6A50419C-6333-478A-A188-A48840833389}
 templatekey: App Route
 
 ----field----
+field: {B1BC4009-E785-46DA-96DF-38F67A782E70}
+name: HideFromSitemap
+key: hidefromsitemap
+content-length: 1
+
+1
+----field----
 field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
 name: __Workflow
 key: __workflow
@@ -19,8 +26,36 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: 5a758bf7-9983-457c-8be2-e1472e7dbfff
+revision: 3a6f103e-97b6-4c67-8753-ce42072116ce
 
+----field----
+field: {19C4ED5F-AAB8-4BDC-9611-6F00EBB233EE}
+name: image_loc
+key: image_loc
+content-length: 58
+
+<image mediaid="{4AB24835-6ECA-47E8-A53E-C0354D7BDAAA}" />
+----field----
+field: {4623636F-0511-4305-85E3-3CBEF483A2F5}
+name: image_title
+key: image_title
+content-length: 31
+
+eugene-lim-w74T9SFYyHc-unsplash
+----field----
+field: {075C8E28-60DF-4C3F-AC4E-220205DC69A1}
+name: changefreq
+key: changefreq
+content-length: 5
+
+daily
+----field----
+field: {9EEE19A4-D357-47E0-81CB-C839FD042C3D}
+name: priority
+key: priority
+content-length: 1
+
+0
 ----field----
 field: {D22BFE7C-82BE-49A0-8A3A-EA219A85973C}
 name: pageTitle
@@ -55,14 +90,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-5a758bf7-9983-457c-8be2-e1472e7dbfff
+3a6f103e-97b6-4c67-8753-ce42072116ce
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20220313T145613Z
+20220320T111044Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

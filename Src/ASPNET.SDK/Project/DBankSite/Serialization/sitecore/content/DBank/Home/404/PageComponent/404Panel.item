@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {E69A2A30-23B6-46B2-9FE5-EDD6AA1109BD}
+database: master
+path: /sitecore/content/DBank/Home/404/PageComponent/404Panel
+parent: {5CAC69E4-8F6D-480D-BFC7-AEAF60C2AC37}
+name: 404Panel
+master: {00000000-0000-0000-0000-000000000000}
+template: {3544D2D2-BC9D-4372-BE0E-F03F59CCD1FF}
+templatekey: Card
+
+----version----
+language: en
+version: 1
+revision: 5fb8df2e-c88a-4cd9-a93b-1dec3735b640
+
+----field----
+field: {6DA84341-9A88-46E3-810D-9092C1D998CD}
+name: CardTitle
+key: cardtitle
+content-length: 3
+
+404
+----field----
+field: {84C0DF91-066C-4365-8592-1BCD114EE4B8}
+name: CardDescription
+key: carddescription
+content-length: 34
+
+Page you are looking is not found!
+----field----
+field: {7A00990E-9BE9-4655-91AE-22C0463A7B32}
+name: CardLink
+key: cardlink
+content-length: 148
+
+<link text="Go to Home page" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{550CAD08-AB11-4649-9546-3179EC5B2E11}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220320T074902Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5fb8df2e-c88a-4cd9-a93b-1dec3735b640
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220320T075101Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

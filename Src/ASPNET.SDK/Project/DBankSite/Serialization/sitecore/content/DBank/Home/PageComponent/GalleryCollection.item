@@ -19,8 +19,15 @@ content-length: 233
 ----version----
 language: en
 version: 1
-revision: b2ee7c86-5c4b-4861-9b8f-e3afe466bdee
+revision: 232b6406-2a04-469e-8ad2-6a680ef22ab0
 
+----field----
+field: {6DA84341-9A88-46E3-810D-9092C1D998CD}
+name: CardTitle
+key: cardtitle
+content-length: 11
+
+HomeGallery
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -34,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b2ee7c86-5c4b-4861-9b8f-e3afe466bdee
+232b6406-2a04-469e-8ad2-6a680ef22ab0
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20220306T143026Z
+20220319T185317Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -52,8 +59,15 @@ sitecore\admin
 ----version----
 language: ta-IN
 version: 1
-revision: a07770b3-fffb-41cd-930f-4c8f7de02c25
+revision: ec1c4948-ceb5-4602-a727-67faf52eeb46
 
+----field----
+field: {6DA84341-9A88-46E3-810D-9092C1D998CD}
+name: CardTitle
+key: cardtitle
+content-length: 11
+
+HomeGallery
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -81,14 +95,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-a07770b3-fffb-41cd-930f-4c8f7de02c25
+ec1c4948-ceb5-4602-a727-67faf52eeb46
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20220315T180911Z
+20220319T192513Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
