@@ -1,5 +1,5 @@
 <h1 align="center">Demo Bank Sample website</h1>
-This is a sample project using different source technologies this project is made.
+This is a sample demo project which consists of sample components and common practices.This is built on top different source technologies like ASP.NET SDK, JSS SDK.
 
 ## Available source projects
 | Techs  | Src | Status |
