@@ -1,23 +1,21 @@
-using DemoBank.Project.DBankSite.Rendering.Configuration;
-using DemoBank.Feature.Navigation.Rendering.Extensions;
 using DemoBank.Feature.Banner.Rendering.Extensions;
 using DemoBank.Feature.BranchAndATM.Rendering.Extensions;
-using DemoBank.Feature.Form.Rendering.Extensions;
 using DemoBank.Feature.Card.Rendering.Extensions;
-using DemoBank.Foundation.GraphQL.Rendering.Extensions;
+using DemoBank.Feature.Form.Rendering.Extensions;
+using DemoBank.Feature.Navigation.Rendering.Extensions;
 using DemoBank.Feature.Sitemap.Rendering.Extensions;
+using DemoBank.Foundation.GraphQL.Rendering.Extensions;
+using DemoBank.Project.DBankSite.Rendering.Configuration;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Localization;
-using Microsoft.AspNetCore.Rewrite;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Sitecore.AspNet.ExperienceEditor;
 using Sitecore.AspNet.RenderingEngine.Extensions;
 using Sitecore.AspNet.RenderingEngine.Localization;
-using Sitecore.AspNet.Tracking;
 using Sitecore.LayoutService.Client.Extensions;
 using Sitecore.LayoutService.Client.Newtonsoft.Extensions;
 using Sitecore.LayoutService.Client.Request;
@@ -90,12 +88,12 @@ namespace DemoBank.Project.DBankSite.Rendering
                 options                  
                   .AddFeatureBanner()
                   .AddFeatureNavigation()
-                  .AddFeatureBranchAndATM()
-                  //.AddFoundationPeople()
+                  .AddFeatureBranchAndATM()                 
                   .AddFeatureCard()
                   .AddFeatureForm()                                 
                   .AddDefaultPartialView("_ComponentNotFound");
             })
+
               // Includes forwarding of Scheme as X-Forwarded-Proto to the Layout Service, so that
               // Sitecore Media and other links have the correct scheme.
               .ForwardHeaders()
@@ -103,16 +101,11 @@ namespace DemoBank.Project.DBankSite.Rendering
               //.WithTracking()
               // Enable support for the Experience Editor.
               .WithExperienceEditor();
-            //.WithExperienceEditor(options =>
-            //{
-            //    if (Configuration.RenderingHostUri != null)
-            //    {
-            //        options.Endpoint = Configuration.InstanceUri.ToString();
-            //    }
-            //});
+           
 
             services.AddFoundationGraphQL(Configuration.GraphQLURI);
             services.AddFeatureSitemap(Configuration.SitemapURI);
+
             // Enable support for robot detection.
             //services.AddSitecoreVisitorIdentification(options =>
             //{
@@ -147,13 +140,7 @@ namespace DemoBank.Project.DBankSite.Rendering
                 //app.UseWhen(context => !context.Request.Path.StartsWithSegments("/healthz"),
                 //  builder => builder.UseHttpsRedirection());
             }
-
-            ////Add recirects for old mvp pages
-            //var options = new RewriteOptions()
-            //  .AddRedirect("mvps/(.*)", "Directory?fc_personyear=$1")
-            //  .AddRedirect("mvps$", "Directory")
-            //  .AddRedirect("Search(.*)", "Directory$1");
-            //app.UseRewriter(options);
+           
             // The Experience Editor endpoint should not be enabled in production DMZ.
             // See the SDK documentation for details.
             if (Configuration.EnableExperienceEditor)
@@ -168,7 +155,7 @@ namespace DemoBank.Project.DBankSite.Rendering
 
             app.UseFeatureForms();
 
-            // app.UseCookiePolicy();
+            app.UseCookiePolicy();
 
             // Enable proxying of Sitecore robot detection scripts
             //app.UseSitecoreVisitorIdentification();
@@ -179,67 +166,7 @@ namespace DemoBank.Project.DBankSite.Rendering
                   "error",
                   "error",
                   new { controller = "Default", action = "Error" }
-                );
-
-                endpoints.MapControllerRoute(
-                  "healthz",
-                  "healthz",
-                  new { controller = "Default", action = "Healthz" }
-                );
-
-                endpoints.MapControllerRoute(
-                  "getUserEmailClaim",
-                  "getUserEmailClaim",
-                  new { controller = "Application", action = "GetUserEmailClaim" }
-                );
-
-                endpoints.MapControllerRoute(
-                  "submitStep1",
-                  "submitStep1",
-                  new { controller = "Application", action = "Welcome" }
-                );
-
-                endpoints.MapControllerRoute(
-                  "submitStep2",
-                  "submitStep2",
-                  new { controller = "Application", action = "Category" }
-                );
-
-                endpoints.MapControllerRoute(
-                  "submitStep3",
-                  "submitStep3",
-                  new { controller = "Application", action = "PersonalInformation" }
-                );
-
-                endpoints.MapControllerRoute(
-                  "submitStep4",
-                  "submitStep4",
-                  new { controller = "Application", action = "ObjectivesandMotivation" }
-                );
-
-                endpoints.MapControllerRoute(
-                  "submitStep5",
-                  "submitStep5",
-                  new { controller = "Application", action = "Socials" }
-                );
-
-                endpoints.MapControllerRoute(
-                  "submitStep6",
-                  "submitStep6",
-                  new { controller = "Application", action = "NotableCurrentYearContributions" }
-                );
-
-                endpoints.MapControllerRoute(
-                  "submitStep7",
-                  "submitStep7",
-                  new { controller = "Application", action = "Confirmation" }
-                );
-
-                endpoints.MapControllerRoute(
-                  "getCategories",
-                  "getCategories",
-                  new { controller = "Application", action = "GetCategories" }
-                );
+                );               
 
 
                 // Enables the default Sitecore URL pattern with a language prefix.
