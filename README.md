@@ -19,7 +19,7 @@ Get more technical details in respective source modules.
 | Multiple site  | Multiple projects shares same helix base solution  | ✅	Available |
 | Multilingual  | Multilingual sample & Language swither sample  | ✅	Available |
 | Experience editor  | Experience editor support with rendering host post  | ✅	Available |
-| Sitemap  | Sitemap sample  | ✅	Available |
+| Sitemap  | Sitemap sample with Headless extention (https://github.com/andiappan-ar/Sitecore.Headless.SEOExtention)  | ✅	Available |
 | Generic components  | MainMenu , Carousal , Custom form submission , language switcher| ✅	Available |
 | GraphQL default  | Search functionality with GraphQL implementation | ✅	Available |
 | Custom routing  | Custom routing| ✅	Available |
