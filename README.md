@@ -1,5 +1,5 @@
 <h1 align="center">Demo Bank Sample website</h1>
-This is a sample project using different source technologies this project is made.
+This is a sample demo project which consists of sample components and common practices.This is built on top different source technologies like ASP.NET SDK, JSS SDK.
 
 ## Available source projects
 | Techs  | Src | Status |
@@ -19,7 +19,7 @@ Get more technical details in respective source modules.
 | Multiple site  | Multiple projects shares same helix base solution  | ✅	Available |
 | Multilingual  | Multilingual sample & Language swither sample  | ✅	Available |
 | Experience editor  | Experience editor support with rendering host post  | ✅	Available |
-| Sitemap  | Sitemap sample  | ✅	Available |
+| Sitemap  | Sitemap sample with Headless extention (https://github.com/andiappan-ar/Sitecore.Headless.SEOExtention)  | ✅	Available |
 | Generic components  | MainMenu , Carousal , Custom form submission , language switcher| ✅	Available |
 | GraphQL default  | Search functionality with GraphQL implementation | ✅	Available |
 | Custom routing  | Custom routing| ✅	Available |

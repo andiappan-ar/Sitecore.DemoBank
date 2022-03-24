@@ -1,5 +1,5 @@
 <h1 align="center">Sitecore.DemoBank</h1>
-This is a ASP.NET core MVC sample project using ASP.NET SDK.
+This is a ASP.NET core MVC sample project using ASP.NET SDK with out docker.
 
 ## Solution structure
 This is overall solution structure. Exact similar way of legendery helix based architecture. 
@@ -15,10 +15,13 @@ Here will have a combination of Headless/Head codes.Some key structures.
 
 
 #### /Project layer
+As common in helix all project layer related items will present here. Most of presentation layouts and host applications. In headless world this will be dedicated website.
 
 #### /Feature layer
+All the reusable components can be placed here. This can be reusable across multiple projects.
 
 #### /Foundation layer
+This is base layer as we all know in helix. Mostly platform related items and shared foundation can be present here.
 
 ## Setup
 #### Pre-requisite
@@ -46,7 +49,7 @@ Get more technical details in respective source modules.
 | Multiple site  | Multiple projects shares same helix base solution  | ✅	Available |
 | Multilingual  | Multilingual sample & Language swither sample  | ✅	Available |
 | Experience editor  | Experience editor support with rendering host post  | ✅	Available |
-| Sitemap  | Sitemap sample  | ✅	Available |
+| Sitemap  | Sitemap sample with Headless extention (https://github.com/andiappan-ar/Sitecore.Headless.SEOExtention)  | ✅	Available |
 | Generic components  | MainMenu , Carousal , Custom form submission , language switcher| ✅	Available |
 | GraphQL default  | Search functionality with GraphQL implementation | ✅	Available |
 | Custom routing  | Custom routing| ✅	Available |
