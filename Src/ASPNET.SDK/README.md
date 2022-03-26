@@ -8,8 +8,8 @@ This is overall solution structure. Exact similar way of legendery helix based a
 
 Here will have a combination of Headless/Head codes.Some key structures.
 
-* Headless codes are Rendering host = Project with ending in *.rendering
-* Head codes are Sitecore XP codes = Project with ending in *.platform
+* **Headless codes are Rendering host** = Project with ending in *.rendering
+* **Head codes are Sitecore XP codes** = Project with ending in *.platform
 
 ![image](https://user-images.githubusercontent.com/11770345/159176286-be905379-a6e2-4632-b29a-2e04c343a314.png)
 
@@ -34,6 +34,9 @@ Use TDS project to serialize sample content items, template, endering, placehold
 
 #### Platform project artifacts
 Deploy Platform related artifcats in SItecore XP. Sample Project-Siteefinition, Foundation-Pipelines
+
+#### Appsetting.json
+Setup APIKEY & URL's
 
 #### Rendering host
 Rendering host is ready to run.
