@@ -6,7 +6,7 @@ This is a sample demo project which consists of sample components and common pra
 | ------------- | ------------- | ------------- |
 | ASP.NET SDK  | https://github.com/andiappan-ar/Sitecore.DemoBank/tree/master/Src/ASPNET.SDK  | ✅	Available |
 | JSS React  | -  | ⏳	InProgress |
-| .NET MAUI  | -  | ✅	Available |
+| .NET MAUI  | https://github.com/andiappan-ar/Sitecore.DemoBank/tree/master/Src/MAUI  | ✅	Available |
 
 
 ## Site modules
