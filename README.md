@@ -1,5 +1,5 @@
 <h1 align="center">Demo Bank Sample website</h1>
-This is a sample demo project which consists of sample components and common practices.This is built on top different source technologies like ASP.NET SDK, JSS SDK.
+This is a sample demo project which consists of sample components and common practices. This is built on top of different source technologies like ASP.NET SDK, and JSS SDK.
 
 ## Available source projects
 | Techs  | Src | Status |
@@ -9,14 +9,14 @@ This is a sample demo project which consists of sample components and common pra
 
 
 ## Site modules
-This sample site contains common components, multiple sites , multilingual implementation and so on.
+This sample site contains common components, multiple sites, multilingual implementation, and so on.
 Get more technical details in respective source modules.
 
 | Feature  | Description | Status |
 | ------------- | ------------- | ------------- |
 | Helix principle  | All sources will follow standard helix features  | ✅	Available |
-| Without docker  | No dependency in docker. You can pla with this sample with your existing sitecore instance  | ✅	Available |
-| Multiple site  | Multiple projects shares same helix base solution  | ✅	Available |
+| Without docker  | No dependency in docker. You can play with this sample with your existing Sitecore instance  | ✅	Available |
+| Multiple site  | Multiple projects shares the same helix base solution  | ✅	Available |
 | Multilingual  | Multilingual sample & Language swither sample  | ✅	Available |
 | Experience editor  | Experience editor support with rendering host post  | ✅	Available |
 | Sitemap  | Sitemap sample with Headless extention (https://github.com/andiappan-ar/Sitecore.Headless.SEOExtention)  | ✅	Available |
@@ -26,8 +26,8 @@ Get more technical details in respective source modules.
 | Custom form submission  | Custom form submission| ✅	Available |
 | 404  | Not found page implementation| ✅	Available |
 | GraphQL Advaced  | GraphQL advance concepts custom index, caching, complex filter | ⏳	InProgress |
-| Deployment script  | Auto buildscript or development environement | ⏳	InProgress |
-| Sitecore forms  | Pending with sitecore | ⚠️	Pending |
+| Deployment script  | Auto build script or development environment | ⏳	InProgress |
+| Sitecore forms  | Pending with Sitecore | ⚠️	Pending |
 
 ## Site looks like below
 

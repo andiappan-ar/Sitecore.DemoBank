@@ -1,27 +1,27 @@
 <h1 align="center">Sitecore.DemoBank</h1>
-This is a ASP.NET core MVC sample project using ASP.NET SDK with out docker.
+This is an ASP.NET Core MVC sample project using ASP.NET SDK without docker.
 
 ## Solution structure
-This is overall solution structure. Exact similar way of legendery helix based architecture. 
+This is the overall solution structure. It is in an exactly similar way to legendary helix-based architecture. 
 
 ![image](https://user-images.githubusercontent.com/11770345/159176124-7f5d23af-d764-4bc9-9f6c-183355ac5002.png)
 
-Here will have a combination of Headless/Head codes.Some key structures.
+Here will have a combination of Headless/Head codes. Some key structures.
 
-* Headless codes are Rendering host = Project with ending in *.rendering
-* Head codes are Sitecore XP codes = Project with ending in *.platform
+* **Headless codes are Rendering host** = Project with ending in *.rendering
+* **Head codes are Sitecore XP codes** = Project with ending in *.platform
 
 ![image](https://user-images.githubusercontent.com/11770345/159176286-be905379-a6e2-4632-b29a-2e04c343a314.png)
 
 
 #### /Project layer
-As common in helix all project layer related items will present here. Most of presentation layouts and host applications. In headless world this will be dedicated website.
+As common in helix, all project layer-related items will present here. Most of the presentation layouts and host applications. In the headless world, this will be a dedicated website.
 
 #### /Feature layer
 All the reusable components can be placed here. This can be reusable across multiple projects.
 
 #### /Foundation layer
-This is base layer as we all know in helix. Mostly platform related items and shared foundation can be present here.
+This is the base layer as we all know in helix. Mostly platform-related items and shared foundations can be present here.
 
 ## Setup
 #### Pre-requisite
@@ -30,26 +30,29 @@ This is base layer as we all know in helix. Mostly platform related items and sh
 * .Net core MVC rendering host application
 
 #### Serialization
-Use TDS project to serialize sample content items, template, endering, placeholder.
+Use TDS project to serialize sample content items, template, rendering, and placeholder.
 
 #### Platform project artifacts
-Deploy Platform related artifcats in SItecore XP. Sample Project-Siteefinition, Foundation-Pipelines
+Deploy Platform related artifacts in Sitecore XP. Sample Project-Siteefinition, Foundation-Pipelines
+
+#### Appsetting.json
+Setup APIKEY & URL's
 
 #### Rendering host
-Rendering host is ready to run.
+The rendering host is ready to run.
 
 ## Site modules
-This sample site contains common components, multiple sites , multilingual implementation and so on.
+This sample site contains common components, multiple sites, multilingual implementation, and so on.
 Get more technical details in respective source modules.
 
 | Feature  | Description | Status |
 | ------------- | ------------- | ------------- |
 | Helix principle  | All sources will follow standard helix features  | ✅	Available |
-| Without docker  | No dependency in docker. You can pla with this sample with your existing sitecore instance  | ✅	Available |
-| Multiple site  | Multiple projects shares same helix base solution  | ✅	Available |
+| Without docker  | No dependency in docker. You can play with this sample with your existing Sitecore instance  | ✅	Available |
+| Multiple site  | Multiple projects shares the same helix base solution  | ✅	Available |
 | Multilingual  | Multilingual sample & Language swither sample  | ✅	Available |
 | Experience editor  | Experience editor support with rendering host post  | ✅	Available |
-| Sitemap  | Sitemap sample with Headless extention (https://github.com/andiappan-ar/Sitecore.Headless.SEOExtention)  | ✅	Available |
+| Sitemap  | Sitemap sample with Headless extension (https://github.com/andiappan-ar/Sitecore.Headless.SEOExtention)  | ✅	Available |
 | Generic components  | MainMenu , Carousal , Custom form submission , language switcher| ✅	Available |
 | GraphQL default  | Search functionality with GraphQL implementation | ✅	Available |
 | Custom routing  | Custom routing| ✅	Available |
