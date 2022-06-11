@@ -1,0 +1,64 @@
+﻿@using SitecoreMAUI.RenderingEngine.Service
+
+<div class="top-row ps-3 navbar navbar-dark">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="/Index/">Sitecore.MAUI.Blazor.DemoBank</a>
+		<button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+	</div>
+</div>
+
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+	<nav class="flex-column">
+		<div class="nav-item px-3">
+			<NavLink class="nav-link" href="/index/" Match="NavLinkMatch.All" @onclick='(()=>HandleClick("/index/"))'>
+				<span class="oi oi-home" aria-hidden="true"></span> Home
+			</NavLink>
+		</div>
+		<div class="nav-item px-3">
+			<NavLink class="nav-link" href="login">
+				<span class="oi oi-plus" aria-hidden="true"></span> Login
+			</NavLink>
+		</div>
+		<div class="nav-item px-3">
+			<NavLink class="nav-link" href="fetchdata">
+				<span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
+			</NavLink>
+		</div>
+		<div class="nav-item px-3">			
+			<NavLink class="nav-link" href="/index/BranchATMLocator" @onclick='(()=>HandleClick("/index/BranchATMLocator"))'>
+				<span class="oi oi-list-rich" aria-hidden="true"></span> BranchATMLocator
+			</NavLink>
+		</div>
+		<div class="nav-item px-3">
+			<NavLink class="nav-link" href="/index/Offers" @onclick='(()=>HandleClick("/index/offers"))'>
+				<span class="oi oi-list-rich" aria-hidden="true"></span> Offers
+			</NavLink>
+		</div>
+		<div class="nav-item px-3">
+			<NavLink class="nav-link" href="/index/AboutSitecoreMAUI" @onclick='(()=>HandleClick("/index/AboutSitecoreMAUI"))'>
+				<span class="oi oi-list-rich" aria-hidden="true"></span> About Sitecore MAUI
+			</NavLink>
+		</div>
+	</nav>
+</div>
+
+@code {
+	private bool collapseNavMenu = true;
+
+	private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+	@inject NavigationManager NavigationManager;
+	
+	private void HandleClick(string contextURL)
+	{		
+		NavigationManager.NavigateTo(contextURL,true);
+	}
+
+	private void ToggleNavMenu(EventArgs arg)
+	{		
+		
+		collapseNavMenu = !collapseNavMenu;
+	}
+}

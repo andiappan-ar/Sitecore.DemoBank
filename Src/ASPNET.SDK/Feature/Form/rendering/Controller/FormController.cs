@@ -18,6 +18,7 @@ namespace DemoBank.Feature.Form.Rendering
         public async Task<JsonResult> Login(string username,string password)
         {
             string result = string.Empty;
+            string resultJson = string.Empty;
             string domain = "sitecore";
             string SSCURL = "https://arsc.dev.local/sitecore/api/ssc/auth/login";   
             
@@ -51,13 +52,14 @@ namespace DemoBank.Feature.Form.Rendering
 
                 Response.Cookies.Append(".AspNet.Cookies", result);
 
+                resultJson = (!string.IsNullOrEmpty(result)) ?"Login successfull":"Login failed";
             }
             catch (Exception ex)
             {
                 throw ex;
             }
 
-            return Json(new { });
+            return Json(new { resultJson });
         }
 
        

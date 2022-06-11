@@ -1,0 +1,19 @@
+﻿@using SitecoreMAUI.RazorClassClient.Shared.Components.Fields;
+
+<section class="sec-jumbotron-herobanner"> 
+  <div class="p-5 text-white jumbotron-herobanner" 
+  style="background-image:url(@Model.CardImage.value.src)">
+   <hr class="my-4">
+    <h1 class="fw-bold">
+          <SCSingleLineText scmodel="@Model.CardTitle"/>       
+    </h1> 
+    <p class="fs-5">      
+        @Model.CardDescription.value
+    </p> 
+    <hr class="my-4">
+        <p class="text-warning">@Model.CardParagraph.value</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-xl" href="@Model.CardLink.value.href">@Model.CardLink.value.text</a>            
+        </p>
+  </div>
+</section>

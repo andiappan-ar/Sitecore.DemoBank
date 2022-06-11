@@ -1,0 +1,102 @@
+﻿@using SitecoreMAUI.RazorClassClient.Shared.Components.Fields;
+
+<br />
+<section class="sec-jumbotron-herobanner table-section">
+
+    <h5>(S)=> Sitecore field. (C)=>Custom field.</h5>
+    <br />
+    <table style="width:100%; padding:50px;">
+        <tr>
+            <th>Field</th>
+            <th>Rendering sample</th>
+        </tr>
+        <tr>
+            <td>Field_SIngleLineText(S)</td>
+            <td>
+                <SCSingleLineText scmodel="@Model.Field_SIngleLineText"></SCSingleLineText>
+            </td>
+        </tr>
+        <tr>
+            <td>Field_Checkbox(S)</td>
+            <td>
+                <SCCheckbox scmodel="@Model.Field_Checkbox"></SCCheckbox>
+            </td>
+        </tr>
+        <tr>
+            <td>Field_DateTime</td>
+            <td>
+                @Model.Field_DateTime.value
+            </td>
+        </tr>
+        <tr>
+            <td>Field_Image(S)</td>
+            <td>
+                <SCImage scmodel="@Model.Field_Image"></SCImage>
+            </td>
+        </tr>
+        <tr>
+            <td>Field_Integer(S)</td>
+            <td>
+                <SCInteger scmodel="@Model.Field_Integer"></SCInteger>
+            </td>
+        </tr>
+        <tr>
+            <td>Field_Multiline(S)</td>
+            <td>
+                <SCMultiline scmodel="@Model.Field_Multiline"></SCMultiline>
+            </td>
+        </tr>
+        <tr>
+            <td>Field_Number(S)</td>
+            <td>
+                <SCNumber scmodel="@Model.Field_Number"></SCNumber>
+            </td>
+        </tr>
+        <tr>
+            <td>Field_RichText(S)</td>
+            <td>
+                <SCRichText scmodel="@Model.Field_RichText"></SCRichText>
+            </td>
+        </tr>
+        <tr>
+            <td>Field_Link(S)</td>
+            <td>
+                <SCLink scmodel="@Model.Field_Link"></SCLink>
+            </td>
+        </tr>
+        <tr>
+            <td>Field_DropList</td>
+            <td>
+                @Model.Field_DropList.value
+            </td>
+        </tr>
+        <tr>
+            <td>Field_DropLink</td>
+            <td>
+                <SCSingleLineText scmodel="@Model.Field_DropLink.fields.Key"></SCSingleLineText>
+                <SCSingleLineText scmodel="@Model.Field_DropLink.fields.Value"></SCSingleLineText>
+                <SCLink scmodel="@Model.Field_DropLink.fields.ValueLink"></SCLink>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Field_MultiList</td>
+            <td>
+                @{
+                    int count = 1;
+                    foreach (var item in Model.Field_MultiList)
+                    {
+                                <h6>Multilist selected item: @count</h6>
+                                <br/>
+                                <SCSingleLineText scmodel="@item.fields.Key"></SCSingleLineText>
+                                <SCSingleLineText scmodel="@item.fields.Value"></SCSingleLineText>
+                                <SCLink scmodel="@item.fields.ValueLink"></SCLink>
+
+                        count++;
+                    }
+                }
+
+            </td>
+        </tr>
+    </table>
+</section>

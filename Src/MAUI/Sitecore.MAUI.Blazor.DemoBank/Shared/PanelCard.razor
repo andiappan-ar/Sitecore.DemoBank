@@ -1,0 +1,22 @@
+﻿@using SitecoreMAUI.RazorClassClient.Shared.Components.Fields;
+
+
+@if (Model != null)
+{
+    <section class="page-section bg-primary">
+
+        <div class="p-5 mb-4 bg-light rounded-3 ">
+            <div class="container-fluid py-5 text-center">
+                <h1 class="display-5 fw-bold">
+                    <SCSingleLineText scmodel="@Model.CardTitle"></SCSingleLineText>
+                </h1>
+                <hr class="divider divider-light" />
+                <p class="fs-4 text-center">
+                    <SCRichText scmodel="@Model.CardDescription"></SCRichText>
+                </p>
+                <SCLink customClass="btn btn-primary btn-xl" scmodel="@Model.CardLink"></SCLink>               
+            </div>
+        </div>
+
+    </section>
+}

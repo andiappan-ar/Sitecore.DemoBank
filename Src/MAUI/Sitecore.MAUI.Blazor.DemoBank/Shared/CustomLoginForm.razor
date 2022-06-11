@@ -1,34 +1,25 @@
-@using DemoBank.Feature.Form.Rendering.Models
-@model CustomLoginFormModel
+﻿@using SitecoreMAUI.RazorClassClient.Shared.Components.Fields;
 
 <section class="page-section">
 
     <div class="p-5 mb-4rounded-3 ">
         <div class="container py-5">
-          
+          <h3 class=""><SCSingleLineText scmodel="@Model.CF_Title"></SCSingleLineText></h3>
                 <form action="/form/login" method="post">
                     <div class="form-group">
-                        <label for="username"><sc-text asp-for="@Model.CF_UserNameLabel"></sc-text></label>
+                        <label for="username"><SCSingleLineText scmodel="@Model.CF_UserNameLabel"></SCSingleLineText></label>
                         <input class="form-control" type="text" placeholder="Enter Username" name="username" required>
 
                     </div>
                     <div class="form-group">
-                        <label for="password"><sc-text asp-for="@Model.CF_PasswordLabel"></sc-text></label>
+                        <label for="password"><SCSingleLineText scmodel="@Model.CF_PasswordLabel"></SCSingleLineText></label>
                         <input class="form-control" type="password" placeholder="Enter Password" name="password" required>
                     </div>
                    
-                    <button class="btn btn-primary" type="submit"><sc-text asp-for="@Model.CF_LoginButtonLabel"></sc-text></button>
-                    
+                    <button class="btn btn-primary" type="submit"><SCSingleLineText scmodel="@Model.CF_LoginButtonLabel"></SCSingleLineText></button>
                 </form>             
            
         </div>
     </div>
 
 </section>
-
-
-
-
-
-
-

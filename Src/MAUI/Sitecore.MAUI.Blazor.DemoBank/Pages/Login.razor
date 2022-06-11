@@ -1,0 +1,37 @@
+﻿@page "/Login"
+@using Sitecore.MAUI.Blazor.DemoBank.Models.ViewModel
+@using SitecoreMAUI.RenderingEngine.Model
+@using SitecoreMAUI.RenderingEngine.Service
+
+@if (IsPostBack)
+{
+    @if (loginComponent!=null)
+    {
+        <!--Render Login component-->
+        <CustomLoginForm DynamicComponentModel="@loginComponent.fields"></CustomLoginForm>
+    }
+    else
+    {
+        <h2>Page not found!</h2>
+    }
+}
+else
+{
+    <h2>Loading!</h2>
+}
+
+@code {
+   
+    private bool IsPostBack;
+    private JsonRendering loginComponent;
+
+    private SitecoreContext sitecoreContext;
+
+    protected override async Task OnInitializedAsync()
+    {
+        ServiceSettings.AppSettings.SetCurrentContextUrlPath("/login");
+        sitecoreContext = await ServiceContext.GetSitecoreContext();
+        loginComponent = ServiceContext.GetComponent(sitecoreContext, "main", "CustomLoginForm").FirstOrDefault();        
+        IsPostBack=true;
+    }
+}

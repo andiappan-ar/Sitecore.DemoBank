@@ -1,0 +1,51 @@
+﻿@page "/"
+@page "/index/{CurrentContextUrlPath?}"
+
+@using SitecoreMAUI.RazorClassClient.Shared.Components.Fields
+@using SitecoreMAUI.RazorClassClient.Shared.Placeholder
+@using SitecoreMAUI.RenderingEngine.Model
+@using Microsoft.Maui.Controls
+@using SitecoreMAUI.RenderingEngine.Service
+@using Sitecore.MAUI.Blazor.DemoBank.Shared
+
+
+@if (IsPostBack)
+{
+    @if (sitecoreContext != null && sitecoreContext.sitecore.route.placeholders != null && CurrentContextUrlPath != null)
+    {
+        <!--Header-->
+       <SCPlaceholder placeholderKey="header" scmodel="sitecoreContext"></SCPlaceholder>   
+       <!--Body-->
+       <SCPlaceholder placeholderKey="main" scmodel="sitecoreContext"></SCPlaceholder>
+       <!--Footer-->
+       <SCPlaceholder placeholderKey="footer" scmodel="sitecoreContext"></SCPlaceholder>
+    }
+    else
+    {
+        <h2>Page not found!</h2>
+    }
+}
+else
+{
+    <h2>Loading!</h2>
+}
+
+
+@code {
+    [Parameter]
+    public string? CurrentContextUrlPath { get; set; }
+
+    private SitecoreContext sitecoreContext;
+    private bool IsPostBack;
+
+    protected override async Task OnInitializedAsync()
+    {
+        CurrentContextUrlPath = CurrentContextUrlPath ?? ServiceSettings.AppSettings.DefaultPage;
+        ServiceSettings.AppSettings.SetCurrentContextUrlPath(CurrentContextUrlPath);
+        sitecoreContext = await ServiceContext.GetSitecoreContext();
+        IsPostBack = true;
+    }   
+
+}
+
+

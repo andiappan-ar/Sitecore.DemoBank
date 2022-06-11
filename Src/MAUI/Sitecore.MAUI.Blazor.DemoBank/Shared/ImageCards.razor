@@ -1,0 +1,52 @@
+﻿@using SitecoreMAUI.RazorClassClient.Shared.Components.Fields;
+
+
+@if (Model != null)
+{
+    int buttonCounter = 0;
+    int elementCounter = 0;
+    <!-- Image cards-->
+    string idSelector = @Model.CardTitle.value.Replace(" ", "");
+
+    <div class="container-fluid">
+        <div id="@idSelector" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+
+                @foreach (var card in Model.Elements)
+                {
+                    string isActivee = ((buttonCounter == 0) ? "active" : "");
+                    <button type="button" data-bs-target="#@idSelector" data-bs-slide-to="@buttonCounter"
+                    class="@isActivee" aria-label="Slide @buttonCounter"></button>
+                    buttonCounter++;
+                }
+
+            </div>
+            <div class="carousel-inner">
+                @foreach (var card in Model.Elements)
+                {
+                    string isActivee = ((elementCounter == 0) ? "active" : "");
+
+                    <div class="carousel-item @isActivee">
+                        <SCImage customClass="d-block w-100" scmodel="@card.fields.CardImage"></SCImage>
+
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="fw-bold"> <SCSingleLineText scmodel="@card.fields.CardTitle"></SCSingleLineText> </h1>
+                            <h5><SCRichText scmodel="@card.fields.CardDescription"></SCRichText></h5>
+                            <p><SCSingleLineText scmodel="@card.fields.CardParagraph"></SCSingleLineText></p>
+                        </div>
+                    </div>
+
+                    elementCounter++;
+                }
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#@idSelector" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#@idSelector" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+}
