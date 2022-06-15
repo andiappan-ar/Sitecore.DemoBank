@@ -30,7 +30,7 @@ Get more technical details in respective source modules.
 | Experience editor  | Experience editor support with rendering host post  | ⏳	InProgress |
 | GraphQL default  | Search functionality with GraphQL implementation | ⏳	InProgress |
 
-## Site looks like below
+## APP looks like below
 
 #### Windows native app
 <p align="center" width="100%">
