@@ -3,19 +3,23 @@ This is an .NET MAUI sample blazor project using Sitecore MAUI SDK without docke
 
 ## Setup
 #### Pre-requisite
-* Sitecore XP with Headless service compatability
-* JSS/Headless service
-* .Net core MVC rendering host application
+* Setup your Sitecore XP with Headless service compatability.
+* Please follow and setup JSS/Headless service
+* Please follow and setup .Net core MVC rendering host application
 
 #### Serialization
 Use TDS project to serialize sample content items, template, rendering, and placeholder.
 
 #### Appsetting.json
-Setup APIKEY & URL's
+Setup APIKEY & URL's the appsettings.json in the solution.
+
+#### Ready to run !
+If your setup complete , you can run MAUI app!!
 
 ## App modules
 This sample app contains common components and all sample fields rendering.
 Get more technical details in respective source modules.
+
 
 | Feature  | Description | Status |
 | ------------- | ------------- | ------------- |
