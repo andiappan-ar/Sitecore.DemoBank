@@ -1,19 +1,23 @@
 <h1 align="center">SitecoreMAUI.DemoBank</h1>
 This is an .NET MAUI sample blazor project using Sitecore MAUI SDK without docker.
 
-## Setup
-#### Pre-requisite
+# Setup
+## Pre-requisite
 * Setup your Sitecore XP with Headless service compatability.
 * Please follow and setup JSS/Headless service
 * Please follow and setup .Net core MVC rendering host application
 
-#### Serialization
-Use TDS project to serialize sample content items, template, rendering, and placeholder.
+## Serialization
+You can choose any option inthe below,
+* Use **Sitecore packages** to install the required content items, template, rendering, and placeholder.
+* Use **TDS** to serialize required content items, template, rendering, and placeholder.
 
-#### Appsetting.json
+**Serialization path:** https://github.com/andiappan-ar/Sitecore.DemoBank/tree/master/Src/ASPNET.SDK/Project/DBankSite/Serialization
+
+## Appsetting.json
 Setup APIKEY & URL's the appsettings.json in the solution.
 
-#### Ready to run !
+## Ready to run !
 If your setup complete , you can run MAUI app!!
 
 ## App modules
