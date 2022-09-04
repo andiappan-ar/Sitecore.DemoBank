@@ -1,7 +1,7 @@
 <h1 align="center">Sitecore.DemoBank</h1>
 This is an ASP.NET Core MVC sample project using ASP.NET SDK without docker.
 
-## Solution structure
+# Solution structure
 This is the overall solution structure. It is in an exactly similar way to legendary helix-based architecture. 
 
 ![image](https://user-images.githubusercontent.com/11770345/159176124-7f5d23af-d764-4bc9-9f6c-183355ac5002.png)
@@ -30,7 +30,11 @@ This is the base layer as we all know in helix. Mostly platform-related items an
 * .Net core MVC rendering host application
 
 #### Serialization
-Use TDS project to serialize sample content items, template, rendering, and placeholder.
+You can choose any option inthe below,
+* Use **Sitecore packages** to install the required content items, template, rendering, and placeholder.
+* Use **TDS** to serialize required content items, template, rendering, and placeholder.
+
+**Serialization path:** https://github.com/andiappan-ar/Sitecore.DemoBank/tree/master/Src/ASPNET.SDK/Project/DBankSite/Serialization
 
 #### Platform project artifacts
 Deploy Platform related artifacts in Sitecore XP. Sample Project-Siteefinition, Foundation-Pipelines
