@@ -6,7 +6,7 @@ import {
   LayoutServiceData,
   Field,
 } from '@sitecore-jss/sitecore-jss-nextjs';
-import Navigation from 'src/Navigation';
+
 import Scripts from 'src/Scripts';
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore editors.
@@ -32,12 +32,12 @@ const Layout = ({ layoutData }: LayoutProps): JSX.Element => {
       <Scripts />
       <Head>
         <title>{fields.pageTitle.value.toString() || 'Page'}</title>
-        <link rel="icon" href={`${publicUrl}/favicon.ico`} />
+        <link rel="icon" href={`${publicUrl}/favicon.ico`}></link>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" ></link>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
       </Head>
-
-      <Navigation />
       {/* root placeholder for the app, which we add components to using route data */}
-      <div className="container">{route && <Placeholder name="jss-main" rendering={route} />}</div>
+      <div >{route && <Placeholder name="jss-main" rendering={route} />}</div>
     </>
   );
 };

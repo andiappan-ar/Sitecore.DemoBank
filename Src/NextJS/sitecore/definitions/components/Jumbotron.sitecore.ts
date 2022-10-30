@@ -12,9 +12,11 @@ export default function Jumbotron(manifest: Manifest): void {
     // totally optional, but fun
     icon: SitecoreIcon.DocumentTag,
     fields: [
-      { name: 'heading', type: CommonFieldTypes.SingleLineText },
-      { name: 'content', type: CommonFieldTypes.RichText },
+      { name: 'CardTitle', type: CommonFieldTypes.SingleLineText },
+      { name: 'CardDescription', type: CommonFieldTypes.RichText },
+      { name: 'CardParagraph', type: CommonFieldTypes.MultiLineText },
       { name: 'CardImage', type: CommonFieldTypes.Image },
+      { name: 'CardLink', type: CommonFieldTypes.GeneralLink },
     ],
   });
 }
