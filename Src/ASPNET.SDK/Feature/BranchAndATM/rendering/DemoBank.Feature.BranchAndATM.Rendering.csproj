@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Foundation\GraphQL\DemoBank.Foundation.GraphQL.Rendering.csproj" />
+    <ProjectReference Include="..\..\..\Foundation\GraphQL\rendering\DemoBank.Foundation.GraphQL.Rendering.csproj" />
   </ItemGroup>
 
 </Project>

@@ -37,7 +37,7 @@ const Layout = ({ layoutData }: LayoutProps): JSX.Element => {
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
       </Head>
       {/* root placeholder for the app, which we add components to using route data */}
-      <div >{route && <Placeholder name="jss-main" rendering={route} />}</div>
+      <div >{route && <Placeholder name="main" rendering={route} />}</div>
     </>
   );
 };

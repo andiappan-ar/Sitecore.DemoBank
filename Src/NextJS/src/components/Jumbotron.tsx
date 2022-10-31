@@ -25,7 +25,7 @@ type JumbotronProps = ComponentProps & {
  * JSS component that's useful.
  */
 const Jumbotron = ({ fields }: JumbotronProps): JSX.Element => (
-  <section className="sec-jumbotron-herobanner">
+  <div className="sec-jumbotron-herobanner">
     <div
       className="p-5 text-white jumbotron-herobanner"
       style={{ backgroundImage: `url(${fields.CardImage.value?.src})` }} 
@@ -50,7 +50,7 @@ const Jumbotron = ({ fields }: JumbotronProps): JSX.Element => (
         />
       </p>
     </div>
-  </section>
+  </div>
 );
 
 export default withDatasourceCheck()<JumbotronProps>(Jumbotron);
