@@ -23,16 +23,16 @@ const Jumbotron = ({ fields }: JumbotronProps): JSX.Element => (
       <h1 className="fw-bold">
         <Text field={fields.CardTitle} />
       </h1>
-      <p className="fs-5">
+      <div className="fs-5">
         <RichText field={fields.CardDescription} />
-      </p>
+      </div>
       <hr className="my-4 banner-hr" />
-      <p className="text-warning">
+      <div className="text-warning">
         <Text field={fields.CardParagraph} />
-      </p>
-      <p className="lead">
+      </div>
+      <div className="lead">
         <Link field={fields.CardLink} showLinkTextWithChildrenPresent={true} className="btn btn-primary btn-xl" data-otherattributes="pass-through-to-anchor-tag" />
-      </p>
+      </div>
     </div>
   </div>
 );

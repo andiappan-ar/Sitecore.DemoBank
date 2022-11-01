@@ -12,6 +12,10 @@ type IconCardsProps = ComponentProps & {
   };
 };
 
+function Get_uniqueId(){
+  return Date.now().toString(36) + Math.random().toString(36).substring(2);
+}
+
 /**
  * A simple Content Block component, with a heading and rich text block.
  * This is the most basic building block of a content site, and the most basic
@@ -25,7 +29,7 @@ const IconCards = ({ fields }: IconCardsProps): JSX.Element => (
       <hr className="divider" />
       <div className="row gx-4 gx-lg-5">
           {fields.Elements.map(card => (
-              <div className="col-lg-3 col-md-6">
+              <div key={Get_uniqueId()} className="col-lg-3 col-md-6">
                   <div className="mt-5 card" >
                       <NextImage className="card-img-top" field={card.fields.CardImage}></NextImage>
                       <div className="card-body" style={{width:'18rem'}}>

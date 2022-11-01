@@ -25,9 +25,9 @@ const PanelCard = ({ fields }: PanelCardProps): JSX.Element => (
           <Text field={fields.CardTitle} />
         </h1>
         <hr className="divider divider-light" />
-        <p className="fs-4 text-center">
+        <div className="fs-4 text-center">
           <RichText field={fields.CardDescription} />
-        </p>
+        </div>
         <Link className="btn btn-primary btn-xl" field={fields.CardLink}></Link>
       </div>
     </div>

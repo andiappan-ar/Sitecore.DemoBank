@@ -52,10 +52,10 @@ const ImageCards = ({ fields }: ImageCardsProps): JSX.Element => (
 
         <div className="carousel-indicators">
           {fields.Elements.map(card => (
-            <>
+            <>            
               <>{set_isActivee((buttonCounter == 0) ? "active" : "")}</>
               <button type="button" data-bs-target={'#' + idSelector} data-bs-slide-to={buttonCounter}
-                className={isActivee} aria-label={"Slide " + buttonCounter}></button>
+                className={isActivee} aria-label={"Slide " + buttonCounter} data-val={card.fields.CardTitle}></button>
               <>{increase_buttonCounter()}</>
             </>
           ))}
