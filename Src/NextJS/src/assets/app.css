@@ -26,3 +26,17 @@ a[target='_blank']:after {
     font-weight: 300;
     line-height: 1.2;
 }
+
+.jumbotron-herobanner {
+  background-size: cover;
+  min-height: 450px;
+}
+
+.banner-hr {
+  margin: 1rem 0;
+  color: gray;
+  background-color: gray;
+  border: 0;
+  opacity: .25;
+  height: 1px;
+}
