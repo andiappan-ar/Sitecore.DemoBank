@@ -1,0 +1,133 @@
+----item----
+version: 1
+id: {5AE1EE51-569C-4A36-A3E1-EBCFB838C9DD}
+database: master
+path: /sitecore/content/DBank/Home/Offers
+parent: {550CAD08-AB11-4649-9546-3179EC5B2E11}
+name: Offers
+master: {00000000-0000-0000-0000-000000000000}
+template: {8CA3D6E4-1B34-5CF7-86CA-BCB493179C5F}
+templatekey: App Route
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 2418
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" s:l="{EDC1BB0E-6003-4C30-A7B9-173B2171A462}"><p uid="{3990C874-5B2B-545A-B8C3-CA2B1F0B1C48}"><p:d /></p><p uid="{10E56702-DE84-5645-8A5C-DD88941E1D5E}"><p:d /></p><p uid="{18C9C8E7-5133-5D60-8130-D8C282F8E926}"><p:d /></p><p uid="{F6EB6019-DF9D-5D66-997C-7FF197EDE566}"><p:d /></p><p uid="{1EBE6672-6B44-5105-9739-0D70624E4E98}"><p:d /></p><p uid="{BA868617-E54D-5910-B3B2-E404865EC97A}"><p:d /></p><p uid="{7EEE0E5B-6DCF-4F94-AED4-82CA11D380F5}" p:before="*" s:key="main" s:md="{FE8B45ED-CE6C-4909-84E6-572B7C2A7B36}" /><p uid="{49A7DB16-7B27-4FB0-962B-F0A85BF178EF}" p:after="p[@uid='{7EEE0E5B-6DCF-4F94-AED4-82CA11D380F5}']" s:key="header" s:md="{33D9E575-B1D2-44D6-95E5-CA5D07B81E05}" /><p uid="{2D4866A5-A9E8-45B4-8B5D-EB1074E0EE96}" p:after="p[@uid='{49A7DB16-7B27-4FB0-962B-F0A85BF178EF}']" s:key="footer" s:md="{903A7221-5343-4B8B-90A3-188C3636C43D}" /><r uid="{84CC1A84-7300-4D63-97D9-3370770B8A04}" p:after="p[@uid='{2D4866A5-A9E8-45B4-8B5D-EB1074E0EE96}']" s:ds="{29BA79A4-DF15-4712-95F7-FD4800599F42}" s:id="{6FCDF2C3-5DED-4CD5-A4A8-D4DCCC87BC62}" s:par="" s:ph="/header" s:ccb="Clear on publish" /><r uid="{0BFECB75-DB5B-4283-92AB-9C8A4824FE06}" p:after="r[@uid='{84CC1A84-7300-4D63-97D9-3370770B8A04}']" s:ds="{B043C28A-BDD8-4095-8292-2480520B597A}" s:id="{4FB85E57-C61F-4178-B60F-6AE81B59D11F}" s:par="css" s:ph="/main" s:ccb="Clear on publish" /><r uid="{B57BFF4D-C96E-4D55-B879-05B93D3CC116}" p:after="r[@uid='{0BFECB75-DB5B-4283-92AB-9C8A4824FE06}']" s:ds="{8D5A4499-BF0E-462A-8A86-7F083E69C0E6}" s:id="{ED5F4B71-1113-4EDB-979E-0A35E4E5F2EE}" s:par="css=bg-primary" s:ph="/main" s:ccb="Clear on publish" /><r uid="{96C05E70-E1EA-42F8-B72C-A4E30DAE24AB}" p:after="r[@uid='{B57BFF4D-C96E-4D55-B879-05B93D3CC116}']" s:ds="{AC3F4D7A-5F28-4CA3-BD69-073A245A724A}" s:id="{47DE9D38-7415-4FB8-BC23-F57DF0EFB720}" s:par="" s:ph="/main" s:ccb="Clear on publish" /><r uid="{100A7F5E-5AC7-4670-B4C8-34381416D55B}" p:after="r[@uid='{96C05E70-E1EA-42F8-B72C-A4E30DAE24AB}']" s:ds="{6FD128DC-CBAD-4B2F-B7CD-5AEEEB3FF786}" s:id="{ECE16645-0335-41B4-B914-C703909B0462}" s:par="" s:ph="/main" s:ccb="Clear on publish" /><r uid="{B29C50E5-F247-4048-8BC0-F8575F73B454}" p:after="*[1=2]" s:ds="{883D85C5-79DA-437B-96D9-49D8DB666B28}" s:id="{620B44B6-B15E-4BF8-A7CD-2EA7AD28C1C7}" s:par="" s:ph="/footer" s:ccb="Clear on publish" /></d></r>
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}
+----version----
+language: en
+version: 1
+revision: a1e2be55-c081-4108-b49a-ade5d2202b67
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220227T145255Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a1e2be55-c081-4108-b49a-ade5d2202b67
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220529T125929Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{FCFDBB96-946A-4D2F-BCCD-5573073FC176}
+----version----
+language: ta-IN
+version: 1
+revision: 364c0235-f6bd-4c28-bb96-e8ead30b078f
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220319T195345Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+364c0235-f6bd-4c28-bb96-e8ead30b078f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220529T125604Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{FCFDBB96-946A-4D2F-BCCD-5573073FC176}

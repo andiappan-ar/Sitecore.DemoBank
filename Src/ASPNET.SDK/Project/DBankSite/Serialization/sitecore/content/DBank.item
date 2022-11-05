@@ -6,13 +6,20 @@ path: /sitecore/content/DBank
 parent: {0DE95AE4-41AB-4D01-9EB0-67441B7C2450}
 name: DBank
 master: {00000000-0000-0000-0000-000000000000}
-template: {061CBA15-5474-4B91-8A06-17903B102B82}
+template: {674589A1-7784-42CF-861C-52D1EAFCF657}
 templatekey: App
 
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 23
+
+apps/32x32/invoices.png
 ----version----
 language: en
 version: 1
-revision: 48e1e5df-40ea-4b5a-a378-7d1988c4e207
+revision: 32087e2c-28f2-4ef4-a54d-971fac7b29e5
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -41,18 +48,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-48e1e5df-40ea-4b5a-a378-7d1988c4e207
+32087e2c-28f2-4ef4-a54d-971fac7b29e5
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20220320T100322Z
+20221031T030013Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

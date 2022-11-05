@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {B17331B7-D275-5E70-933A-FE23FCF4FB10}
+database: master
+path: /sitecore/layout/Placeholder Settings/Project/NextJS Tenant/jss-styleguide-section
+parent: {B8077C33-FF96-45F2-B5F6-40695BBDDA51}
+name: jss-styleguide-section
+master: {00000000-0000-0000-0000-000000000000}
+template: {5C547D4E-7111-4995-95B0-6B561751BF2E}
+templatekey: Placeholder
+
+----field----
+field: {7256BDAB-1FD2-49DD-B205-CB4873D2917C}
+name: Placeholder Key
+key: placeholder key
+content-length: 22
+
+jss-styleguide-section
+----field----
+field: {E391B526-D0C5-439D-803E-17512EAE6222}
+name: Allowed Controls
+key: allowed controls
+content-length: 662
+
+{40950498-6F48-5821-B0E9-6752FD18B6D6}|{A8B738EF-7554-5848-864D-6DA325039825}|{A65237E2-1F71-52B9-9AA1-F0D290E1056A}|{52EB0485-65A7-5A95-B53F-2FD678492620}|{163BA090-A81C-5C37-9A31-B6765CF9C93A}|{58022392-C6C5-5DFA-AA83-5C69A63E5771}|{01BFDBFF-A1C0-5F5C-83AA-7B9EDA8838D8}|{33B2ADAE-59C7-5347-A969-3AAD86F44DC8}|{01446D8D-ED3B-5820-AF29-23D4D290BE41}|{BB8534EC-6004-58E9-9B7A-70434941C339}|{0A79015E-FD53-5CF7-AEFD-68244CDCBE97}|{6473B4D8-6D01-502F-AC39-18559941014F}|{DDA3C9BE-9C61-5EAF-911B-C4D0D267EACA}|{5C239416-EF96-58B9-9123-22B98B4DE209}|{0724C8EF-274C-5C63-9E1D-E9353FAD0814}|{EC788B21-58B4-57FA-BB5A-C16F37E5A257}|{FBC9EE35-4132-5E11-9E58-9A6182645B05}
+----field----
+field: {9C6106EA-7A5A-48E2-8CAD-F0F693B1E2D4}
+name: __Read Only
+key: __read only
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: 5082e01d-d294-4190-b89e-ace8abfbad9b
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 18
+
+sitecore\JssImport
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20221023T182144Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+sitecore\JssImport
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5082e01d-d294-4190-b89e-ace8abfbad9b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20221023T182424Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

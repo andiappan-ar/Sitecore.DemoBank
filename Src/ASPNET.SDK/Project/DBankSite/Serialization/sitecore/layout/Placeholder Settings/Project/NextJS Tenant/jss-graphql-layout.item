@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {96D8BEB9-F97A-5D2A-996B-0C5E959176FA}
+database: master
+path: /sitecore/layout/Placeholder Settings/Project/NextJS Tenant/jss-graphql-layout
+parent: {B8077C33-FF96-45F2-B5F6-40695BBDDA51}
+name: jss-graphql-layout
+master: {00000000-0000-0000-0000-000000000000}
+template: {5C547D4E-7111-4995-95B0-6B561751BF2E}
+templatekey: Placeholder
+
+----field----
+field: {7256BDAB-1FD2-49DD-B205-CB4873D2917C}
+name: Placeholder Key
+key: placeholder key
+content-length: 18
+
+jss-graphql-layout
+----field----
+field: {E391B526-D0C5-439D-803E-17512EAE6222}
+name: Allowed Controls
+key: allowed controls
+content-length: 77
+
+{D3F706DE-01F2-5B83-BFC8-410CC7924518}|{12FC7A56-A7D9-59C9-BDAA-310C5F6FACD4}
+----field----
+field: {9C6106EA-7A5A-48E2-8CAD-F0F693B1E2D4}
+name: __Read Only
+key: __read only
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: 20fa2904-5d0b-4dc4-8fb9-678c7735bb5b
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 18
+
+sitecore\JssImport
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20221023T182144Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+sitecore\JssImport
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+20fa2904-5d0b-4dc4-8fb9-678c7735bb5b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20221023T182424Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

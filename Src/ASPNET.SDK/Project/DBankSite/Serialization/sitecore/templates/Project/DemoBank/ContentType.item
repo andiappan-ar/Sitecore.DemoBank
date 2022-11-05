@@ -3,7 +3,7 @@ version: 1
 id: {C9C7414E-AC2B-41DC-918F-2B4ED6C87798}
 database: master
 path: /sitecore/templates/Project/DemoBank/ContentType
-parent: {7DEF2B63-4839-4A5D-B331-64182132998A}
+parent: {E93E2FA1-EC2D-41D6-801D-B8DEC7E039DB}
 name: ContentType
 master: {00000000-0000-0000-0000-000000000000}
 template: {0437FEE2-44C9-46A6-ABE9-28858D9FEE8C}
@@ -12,7 +12,7 @@ templatekey: Template Folder
 ----version----
 language: en
 version: 1
-revision: 0d533d46-20de-4231-89ee-db589ad306ae
+revision: b8fbe84a-4a67-441f-978f-28686e2b12e1
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -41,18 +41,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-0d533d46-20de-4231-89ee-db589ad306ae
+b8fbe84a-4a67-441f-978f-28686e2b12e1
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20220305T091735Z
+20221025T170942Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

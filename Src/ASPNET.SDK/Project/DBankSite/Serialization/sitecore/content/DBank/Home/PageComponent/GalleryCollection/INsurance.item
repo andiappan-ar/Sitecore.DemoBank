@@ -2,9 +2,9 @@
 version: 1
 id: {C24F47A5-1323-4641-90FA-DB682F0FFF28}
 database: master
-path: /sitecore/content/DBank/Home/PageComponent/GalleryCollection/INsurance
+path: /sitecore/content/DBank/Home/PageComponent/GalleryCollection/Insurance
 parent: {6FD128DC-CBAD-4B2F-B7CD-5AEEEB3FF786}
-name: INsurance
+name: Insurance
 master: {00000000-0000-0000-0000-000000000000}
 template: {3544D2D2-BC9D-4372-BE0E-F03F59CCD1FF}
 templatekey: Card
@@ -26,7 +26,7 @@ content-length: 3
 ----version----
 language: en
 version: 1
-revision: e041bd9d-d49d-44f8-81c0-f81d223b8c13
+revision: a09c49f2-d9b0-4ab5-80a7-acd03582bb31
 
 ----field----
 field: {6DA84341-9A88-46E3-810D-9092C1D998CD}
@@ -34,7 +34,7 @@ name: CardTitle
 key: cardtitle
 content-length: 9
 
-INsurance
+Insurance
 ----field----
 field: {84C0DF91-066C-4365-8592-1BCD114EE4B8}
 name: CardDescription
@@ -62,21 +62,21 @@ name: __Revision
 key: __revision
 content-length: 36
 
-e041bd9d-d49d-44f8-81c0-f81d223b8c13
+a09c49f2-d9b0-4ab5-80a7-acd03582bb31
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20220319T191205Z
+20221101T173154Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin
 ----version----
 language: ta-IN
 version: 1

@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {DEE01D2A-FABF-5690-801D-AB7844F51AEC}
+database: master
+path: /sitecore/content/NextJS Tenant/demobank-nextjs-jss/Content/Styleguide
+parent: {7EECE6C2-54EF-5C74-BDD5-FB60ACD43CBC}
+name: Styleguide
+master: {00000000-0000-0000-0000-000000000000}
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
+
+----version----
+language: en
+version: 1
+revision: c16eef3c-9125-4cfd-a30a-7396fca372b1
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 10
+
+Styleguide
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20221023T182419Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c16eef3c-9125-4cfd-a30a-7396fca372b1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20221023T182419Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {E62BE718-1389-59B7-942E-D17973AD670A}
+database: master
+path: /sitecore/layout/Placeholder Settings/Project/NextJS Tenant/jss-main
+parent: {B8077C33-FF96-45F2-B5F6-40695BBDDA51}
+name: jss-main
+master: {00000000-0000-0000-0000-000000000000}
+template: {5C547D4E-7111-4995-95B0-6B561751BF2E}
+templatekey: Placeholder
+
+----field----
+field: {7256BDAB-1FD2-49DD-B205-CB4873D2917C}
+name: Placeholder Key
+key: placeholder key
+content-length: 8
+
+jss-main
+----field----
+field: {E391B526-D0C5-439D-803E-17512EAE6222}
+name: Allowed Controls
+key: allowed controls
+content-length: 194
+
+{AFE6F988-885E-572A-BB6A-6511C4023B83}|{82A1910D-01DB-54D5-B721-33D207925F84}|{48077AA0-B90F-5AC0-9ADE-B9484C626A66}|{4501E93D-47AE-5380-B163-EBEBAE1BA827}|{CE383214-6577-4494-8A7F-1E719FC28BDA}
+----field----
+field: {9C6106EA-7A5A-48E2-8CAD-F0F693B1E2D4}
+name: __Read Only
+key: __read only
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: b4126b02-c230-482e-82d3-dbff2249c85e
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Main
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 18
+
+sitecore\JssImport
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20221023T182144Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+sitecore\JssImport
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b4126b02-c230-482e-82d3-dbff2249c85e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20221023T193747Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

@@ -7,22 +7,15 @@ parent: {550CAD08-AB11-4649-9546-3179EC5B2E11}
 name: BranchATMLocator
 master: {00000000-0000-0000-0000-000000000000}
 template: {6A50419C-6333-478A-A188-A48840833389}
-templatekey: App Route
+templatekey: App Route Custom
 
-----field----
-field: {B1BC4009-E785-46DA-96DF-38F67A782E70}
-name: HideFromSitemap
-key: hidefromsitemap
-content-length: 1
-
-1
 ----field----
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 828
+content-length: 186
 
-<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{0BFECB75-DB5B-4283-92AB-9C8A4824FE06}"><p:d /></r><r uid="{B57BFF4D-C96E-4D55-B879-05B93D3CC116}"><p:d /></r><r uid="{853678E4-FF38-4643-9FDB-CCFD49CFB952}" p:after="r[@uid='{84CC1A84-7300-4D63-97D9-3370770B8A04}']" s:ds="{055346FE-A8C1-4BEC-8F6D-3B3F55C7EAE8}" s:id="{4FB85E57-C61F-4178-B60F-6AE81B59D11F}" s:par="css" s:ph="/main" s:ccb="Clear on publish" /><r uid="{21ED32D5-3C83-4140-A7C8-3363C5DC9B28}" p:after="r[@uid='{853678E4-FF38-4643-9FDB-CCFD49CFB952}']" s:ds="{877FE236-6C2C-408E-9AE7-A76873E929FB}" s:id="{AC5E91AD-0222-4528-B7D5-C0758D925291}" s:par="css" s:ph="/main" s:ccb="Clear on publish" /><r uid="{96C05E70-E1EA-42F8-B72C-A4E30DAE24AB}"><p:d /></r><r uid="{100A7F5E-5AC7-4670-B4C8-34381416D55B}"><p:d /></r></d></r>
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{0BFECB75-DB5B-4283-92AB-9C8A4824FE06}" s:ds="{055346FE-A8C1-4BEC-8F6D-3B3F55C7EAE8}" /></d></r>
 ----field----
 field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
 name: __Workflow
@@ -33,29 +26,15 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: 5dbcb47d-6e3c-4fca-8f0d-563ac0499b41
+revision: 2e5f65e8-7a5a-4e7e-8baf-62fde69c4fca
 
 ----field----
-field: {19C4ED5F-AAB8-4BDC-9611-6F00EBB233EE}
-name: image_loc
-key: image_loc
-content-length: 58
+field: {47CA3E0C-B45E-4A9F-B3F1-11C3DC65C9B1}
+name: TokenChecker
+key: tokenchecker
+content-length: 16
 
-<image mediaid="{DF93DA33-DC92-4545-8272-9C927D934973}" />
-----field----
-field: {075C8E28-60DF-4C3F-AC4E-220205DC69A1}
-name: changefreq
-key: changefreq
-content-length: 7
-
-monthly
-----field----
-field: {9EEE19A4-D357-47E0-81CB-C839FD042C3D}
-name: priority
-key: priority
-content-length: 1
-
-2
+Click here $name
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -83,14 +62,89 @@ name: __Revision
 key: __revision
 content-length: 36
 
-5dbcb47d-6e3c-4fca-8f0d-563ac0499b41
+2e5f65e8-7a5a-4e7e-8baf-62fde69c4fca
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20220320T111051Z
+20220523T133409Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{AF32C98B-C828-42AF-A649-74C1DE3303FB}
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: en
+version: 2
+revision: 88a44092-c55b-41f0-9e7c-2834b467577a
+
+----field----
+field: {47CA3E0C-B45E-4A9F-B3F1-11C3DC65C9B1}
+name: TokenChecker
+key: tokenchecker
+content-length: 16
+
+Click here $name
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20220523T133544Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220523T133544Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+88a44092-c55b-41f0-9e7c-2834b467577a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220607T104333Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

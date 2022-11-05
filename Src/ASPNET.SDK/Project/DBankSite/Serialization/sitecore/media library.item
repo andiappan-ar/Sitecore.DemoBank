@@ -132,7 +132,7 @@ name: __Created by
 key: __created by
 content-length: 14
 
-sitecore\Admin
+sitecore\admin
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
@@ -153,4 +153,4 @@ name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\Admin
+sitecore\admin

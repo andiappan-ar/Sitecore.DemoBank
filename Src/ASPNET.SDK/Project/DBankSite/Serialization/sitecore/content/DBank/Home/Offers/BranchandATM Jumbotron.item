@@ -1,0 +1,147 @@
+----item----
+version: 1
+id: {B043C28A-BDD8-4095-8292-2480520B597A}
+database: master
+path: /sitecore/content/DBank/Home/Offers/BranchandATM Jumbotron
+parent: {5AE1EE51-569C-4A36-A3E1-EBCFB838C9DD}
+name: BranchandATM Jumbotron
+master: {00000000-0000-0000-0000-000000000000}
+template: {3544D2D2-BC9D-4372-BE0E-F03F59CCD1FF}
+templatekey: Card
+
+----field----
+field: {CCF2E614-DA8C-4F90-A839-8B6AD93FEBBC}
+name: CardImage
+key: cardimage
+content-length: 58
+
+<image mediaid="{2DAABA05-FDAB-4938-AA26-AB8385215B5E}" />
+----version----
+language: en
+version: 1
+revision: b5798812-71f5-4f6e-87a7-bfc1d2e307fb
+
+----field----
+field: {6DA84341-9A88-46E3-810D-9092C1D998CD}
+name: CardTitle
+key: cardtitle
+content-length: 17
+
+Grab all Offers !
+----field----
+field: {84C0DF91-066C-4365-8592-1BCD114EE4B8}
+name: CardDescription
+key: carddescription
+content-length: 156
+
+Opening an account with us became a lot easier. Use your online application and enjoy a banking relationship that’s packed with services and product offers.
+----field----
+field: {7A00990E-9BE9-4655-91AE-22C0463A7B32}
+name: CardLink
+key: cardlink
+content-length: 136
+
+<link text="Open account" anchor="" linktype="internal" class="" title=""  querystring="" id="{A84ADA39-C2C6-4A92-B0CC-8DF0F46F28AC}" />
+----field----
+field: {B06C7CF0-3308-4A45-9460-5633CC684EFF}
+name: CardParagraph
+key: cardparagraph
+content-length: 40
+
+Live your success with Priority Banking.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220308T172934Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b5798812-71f5-4f6e-87a7-bfc1d2e307fb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220529T130008Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ta-IN
+version: 1
+revision: 647ec815-a24b-4741-9ffa-9be3d006ebf2
+
+----field----
+field: {6DA84341-9A88-46E3-810D-9092C1D998CD}
+name: CardTitle
+key: cardtitle
+content-length: 30
+
+கிளை மற்றும் ATM ஐக் கண்டறிதல்
+----field----
+field: {84C0DF91-066C-4365-8592-1BCD114EE4B8}
+name: CardDescription
+key: carddescription
+content-length: 62
+
+உங்களுக்கு அருகிலுள்ள கிளைகள் மற்றும் ஏடிஎம்களைக் கண்டறியவும்!
+----field----
+field: {7A00990E-9BE9-4655-91AE-22C0463A7B32}
+name: CardLink
+key: cardlink
+content-length: 198
+
+<link id="{9920B439-C86C-4DDF-AF18-509483674EF7}" querystring="" linktype="internal" text="கிளை மற்றும் ATM ஐக் கண்டறிதல்" anchor="" url="/DBank/Home/BranchATMLocator" title="" class="" target="" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220319T193708Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+647ec815-a24b-4741-9ffa-9be3d006ebf2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220523T133904Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

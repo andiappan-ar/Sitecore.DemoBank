@@ -3,7 +3,7 @@ version: 1
 id: {ED765550-7B85-4DC3-A29A-D0BA0A8C3E70}
 database: master
 path: /sitecore/templates/Project/DemoBank/PageType
-parent: {7DEF2B63-4839-4A5D-B331-64182132998A}
+parent: {E93E2FA1-EC2D-41D6-801D-B8DEC7E039DB}
 name: PageType
 master: {00000000-0000-0000-0000-000000000000}
 template: {0437FEE2-44C9-46A6-ABE9-28858D9FEE8C}

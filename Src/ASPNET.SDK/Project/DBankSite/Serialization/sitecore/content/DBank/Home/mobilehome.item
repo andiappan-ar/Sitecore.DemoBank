@@ -1,0 +1,154 @@
+----item----
+version: 1
+id: {B528CE25-297B-40E6-AD02-505AB452A330}
+database: master
+path: /sitecore/content/DBank/Home/mobilehome
+parent: {550CAD08-AB11-4649-9546-3179EC5B2E11}
+name: mobilehome
+master: {00000000-0000-0000-0000-000000000000}
+template: {6A50419C-6333-478A-A188-A48840833389}
+templatekey: App Route Custom
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 498
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{84CC1A84-7300-4D63-97D9-3370770B8A04}"><p:d /></r><r uid="{0BFECB75-DB5B-4283-92AB-9C8A4824FE06}" p:after="*[1=2]" s:ds="{14AF8C82-BC01-46E2-AB92-08F3AF17626B}" /><r uid="{B57BFF4D-C96E-4D55-B879-05B93D3CC116}"><p:d /></r><r uid="{96C05E70-E1EA-42F8-B72C-A4E30DAE24AB}"><p:d /></r><r uid="{100A7F5E-5AC7-4670-B4C8-34381416D55B}"><p:d /></r><r uid="{B29C50E5-F247-4048-8BC0-F8575F73B454}"><p:d /></r></d></r>
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}
+----version----
+language: en
+version: 1
+revision: 51d1cd6e-91af-42bc-ab1c-00490090d9b9
+
+----field----
+field: {D22BFE7C-82BE-49A0-8A3A-EA219A85973C}
+name: pageTitle
+key: pagetitle
+content-length: 27
+
+DemoBank - Mobile Home page
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220227T144601Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+51d1cd6e-91af-42bc-ab1c-00490090d9b9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220526T084026Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{AF32C98B-C828-42AF-A649-74C1DE3303FB}
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: ta-IN
+version: 1
+revision: 6d87f891-9e77-4304-a2a9-bfa473a3d170
+
+----field----
+field: {D22BFE7C-82BE-49A0-8A3A-EA219A85973C}
+name: pageTitle
+key: pagetitle
+content-length: 26
+
+டெமோபேங்க் - முகப்புபக்கம்
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220315T160446Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6d87f891-9e77-4304-a2a9-bfa473a3d170
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220525T204406Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{FCFDBB96-946A-4D2F-BCCD-5573073FC176}

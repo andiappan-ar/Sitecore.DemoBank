@@ -1,9 +1,9 @@
 ----item----
 version: 1
-id: {CE637328-3EDE-487F-BD91-6A268A328DC4}
+id: {D786EFEB-200A-5F5D-8C21-813D380FFC87}
 database: master
 path: /sitecore/templates/Project/DemoBank/PageType/App Route/Page Metadata
-parent: {6A50419C-6333-478A-A188-A48840833389}
+parent: {8CA3D6E4-1B34-5CF7-86CA-BCB493179C5F}
 name: Page Metadata
 master: {00000000-0000-0000-0000-000000000000}
 template: {E269FBB5-3750-427A-9149-7AA950B49301}

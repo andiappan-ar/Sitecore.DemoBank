@@ -1,0 +1,133 @@
+----item----
+version: 1
+id: {644A4AC7-C9BC-4D50-A1A8-C1D12C6FE4D2}
+database: master
+path: /sitecore/content/NextJS Tenant/demobank-nextjs-jss/home/Login
+parent: {252B7F4E-003F-4BAD-B482-3DF112A9CEA8}
+name: Login
+master: {00000000-0000-0000-0000-000000000000}
+template: {2AC4AB9D-07AD-49CD-B413-28F797BB93F2}
+templatekey: App Route
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1516
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><p uid="{F60916C4-411D-4865-BEC7-99DD9ED929BD}" p:before="*" s:key="footer" s:md="{58B1B03D-59D5-4FD3-911E-151778FDB5FC}" /><p uid="{EA1058D6-FE02-42FE-B5EF-AA9FBF1BB84D}" p:after="p[@uid='{F60916C4-411D-4865-BEC7-99DD9ED929BD}']" s:key="jss-main" s:md="{4AB77768-E96A-4E8C-A852-E55ED6848575}" /><p uid="{431C3CB4-BB8A-44C0-8098-65ACDCE7B115}" p:after="p[@uid='{EA1058D6-FE02-42FE-B5EF-AA9FBF1BB84D}']" s:key="header" s:md="{6B86F0AD-4A0D-4621-89A1-01FCC1AFBCC4}" /><r uid="{97CE653B-F979-498F-BB73-63F506579CBE}" p:after="p[@uid='{431C3CB4-BB8A-44C0-8098-65ACDCE7B115}']" s:ds="{DE17ACD3-0D3D-4235-881E-E4610B17F6BB}" s:id="{6FCDF2C3-5DED-4CD5-A4A8-D4DCCC87BC62}" s:par="" s:ph="/header" s:ccb="Clear on publish" /><r uid="{6C009F68-EE1B-4F13-94AD-62D41FC1834D}" p:after="r[@uid='{97CE653B-F979-498F-BB73-63F506579CBE}']" s:ds="{716CE1CA-19EA-4796-BE48-06F00A1332F6}" s:id="{0104079E-4AB3-4474-8944-48C7BC60153E}" s:par="" s:ph="/header" s:ccb="Clear on publish" /><r uid="{48426DC3-BE06-4199-B18A-00F78F77C50D}" p:after="r[@uid='{6C009F68-EE1B-4F13-94AD-62D41FC1834D}']" s:ds="{4B768949-93BB-47A7-A8FF-5A4786CADFBE}" s:id="{CCE37D00-F831-4F90-A352-09C53CE15469}" s:par="" s:ph="/jss-main" s:ccb="Clear on publish" /><r uid="{84AA92C0-7705-4912-B917-5A5199ABEB10}" p:after="*[1=2]" s:ds="{5720B477-9851-419F-8E73-B503581A25B6}" s:id="{620B44B6-B15E-4BF8-A7CD-2EA7AD28C1C7}" s:par="" s:ph="/footer" s:ccb="Clear on publish" /></d></r>
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}
+----version----
+language: en
+version: 1
+revision: 771e51e3-c29c-4ea2-b462-674a9a788776
+
+----field----
+field: {5184A5BE-407E-4590-841C-8B744E989DE1}
+name: pageTitle
+key: pagetitle
+content-length: 5
+
+Login
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20221102T152837Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+771e51e3-c29c-4ea2-b462-674a9a788776
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20221105T214820Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{AF32C98B-C828-42AF-A649-74C1DE3303FB}
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: ta-IN
+version: 1
+revision: 44244a95-4492-4113-a272-2f36beaafb9e
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20221102T195126Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+44244a95-4492-4113-a272-2f36beaafb9e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20221102T195127Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{FCFDBB96-946A-4D2F-BCCD-5573073FC176}

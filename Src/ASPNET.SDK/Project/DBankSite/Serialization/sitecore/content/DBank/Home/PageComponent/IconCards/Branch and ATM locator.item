@@ -19,7 +19,7 @@ content-length: 58
 ----version----
 language: en
 version: 1
-revision: ea3649b7-a7f9-456f-a914-8374a07ba789
+revision: 724c0b55-3c41-426c-94a9-4a0247cd29d9
 
 ----field----
 field: {6DA84341-9A88-46E3-810D-9092C1D998CD}
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ea3649b7-a7f9-456f-a914-8374a07ba789
+724c0b55-3c41-426c-94a9-4a0247cd29d9
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20220313T145510Z
+20220523T133904Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -73,7 +73,7 @@ sitecore\admin
 ----version----
 language: ta-IN
 version: 1
-revision: 80315d5f-8b84-43aa-81c9-f7d94d0a342e
+revision: d9ee58e3-e0c7-4a65-91bb-9a3c11947290
 
 ----field----
 field: {6DA84341-9A88-46E3-810D-9092C1D998CD}
@@ -93,9 +93,9 @@ content-length: 55
 field: {7A00990E-9BE9-4655-91AE-22C0463A7B32}
 name: CardLink
 key: cardlink
-content-length: 164
+content-length: 199
 
-<link text="கிளை மற்றும் ஏடிஎம் லொக்கார்டர்" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9920B439-C86C-4DDF-AF18-509483674EF7}" />
+<link id="{9920B439-C86C-4DDF-AF18-509483674EF7}" querystring="" linktype="internal" text="கிளை மற்றும் ஏடிஎம் லொக்கார்டர்" anchor="" url="/DBank/Home/BranchATMLocator" title="" class="" target="" />
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -123,14 +123,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-80315d5f-8b84-43aa-81c9-f7d94d0a342e
+d9ee58e3-e0c7-4a65-91bb-9a3c11947290
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20220319T193437Z
+20220523T133904Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

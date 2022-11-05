@@ -9,10 +9,17 @@ master: {00000000-0000-0000-0000-000000000000}
 template: {C3B037A0-46E5-4B67-AC7A-A144B962A56F}
 templatekey: Placeholder Settings Folder
 
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 23
+
+apps/32x32/invoices.png
 ----version----
 language: en
 version: 1
-revision: 3a6641cf-fefa-46bd-9f18-c353a6744d96
+revision: 7f5dd124-805c-47ac-a195-8af48f6246a0
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -41,18 +48,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-3a6641cf-fefa-46bd-9f18-c353a6744d96
+7f5dd124-805c-47ac-a195-8af48f6246a0
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20220317T151952Z
+20221025T171416Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin
