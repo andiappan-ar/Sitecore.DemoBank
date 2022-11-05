@@ -9,6 +9,8 @@ import {
 
 import Scripts from 'src/Scripts';
 
+import Script from 'next/script';
+
 // Prefix public assets with a public URL to enable compatibility with Sitecore editors.
 // If you're not supporting Sitecore editors, you can remove this.
 const publicUrl = getPublicUrl();
@@ -33,15 +35,17 @@ const Layout = ({ layoutData }: LayoutProps): JSX.Element => {
       <Head>
         <title>{fields.pageTitle.value.toString() || 'Page'}</title>
         <link rel="icon" href={`${publicUrl}/favicon.ico`}></link>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+          rel="stylesheet"
+        />
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+        />
       </Head>
       {/* root placeholder for the app, which we add components to using route data */}
-      <div >
+      <div>
         {route ? (
           <>
             <header>
@@ -49,11 +53,13 @@ const Layout = ({ layoutData }: LayoutProps): JSX.Element => {
                 <div className="container">
                   <Placeholder name="header" rendering={route} />
                 </div>
-                <form className="p-1 d-flex">
-                </form>
+                <form className="p-1 d-flex"></form>
               </nav>
             </header>
             <Placeholder name="jss-main" rendering={route} />
+            <Script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></Script>
+            <Script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></Script>
+            <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></Script>
             <footer className="bg-light py-5">
               <Placeholder name="footer" rendering={route} />
             </footer>

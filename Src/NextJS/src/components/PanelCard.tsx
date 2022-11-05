@@ -1,4 +1,12 @@
-import { Link, LinkField, ImageField, Text, RichText, Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  Link,
+  LinkField,
+  ImageField,
+  Text,
+  RichText,
+  Field,
+  withDatasourceCheck,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 
 type PanelCardProps = ComponentProps & {
@@ -18,7 +26,6 @@ type PanelCardProps = ComponentProps & {
  */
 const PanelCard = ({ fields }: PanelCardProps): JSX.Element => (
   <section className="page-section bg-primary">
-
     <div className="p-5 mb-4 bg-light rounded-3 ">
       <div className="container-fluid py-5 text-center">
         <h1 className="display-5 fw-bold">

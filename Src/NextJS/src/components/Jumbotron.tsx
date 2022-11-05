@@ -1,4 +1,12 @@
-import { Link, LinkField, ImageField, Text, RichText, Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  Link,
+  LinkField,
+  ImageField,
+  Text,
+  RichText,
+  Field,
+  withDatasourceCheck,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 
 type JumbotronProps = ComponentProps & {
@@ -18,7 +26,10 @@ type JumbotronProps = ComponentProps & {
  */
 const Jumbotron = ({ fields }: JumbotronProps): JSX.Element => (
   <div className="sec-jumbotron-herobanner">
-    <div className="p-5 text-white jumbotron-herobanner" style={{ backgroundImage: `url(${fields.CardImage.value?.src})` }}    >
+    <div
+      className="p-5 text-white jumbotron-herobanner"
+      style={{ backgroundImage: `url(${fields.CardImage.value?.src})` }}
+    >
       <hr className="my-4 banner-hr" />
       <h1 className="fw-bold">
         <Text field={fields.CardTitle} />
@@ -31,7 +42,12 @@ const Jumbotron = ({ fields }: JumbotronProps): JSX.Element => (
         <Text field={fields.CardParagraph} />
       </div>
       <div className="lead">
-        <Link field={fields.CardLink} showLinkTextWithChildrenPresent={true} className="btn btn-primary btn-xl" data-otherattributes="pass-through-to-anchor-tag" />
+        <Link
+          field={fields.CardLink}
+          showLinkTextWithChildrenPresent={true}
+          className="btn btn-primary btn-xl"
+          data-otherattributes="pass-through-to-anchor-tag"
+        />
       </div>
     </div>
   </div>
