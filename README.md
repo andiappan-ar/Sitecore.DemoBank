@@ -3,7 +3,7 @@ This is a sample demo project which consists of real time components and common 
 
 ```
 ```
-> <h2>A single demo project built in multiple technology stack.</h2>
+> <h2>A single demo project built in multiple technology stack.</h2> You can refer how implementations can be in different technology stack for the same requirements.
 ```
 ```
 ## Available source projects
