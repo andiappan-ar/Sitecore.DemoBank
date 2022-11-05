@@ -1,13 +1,18 @@
-<h1 align="center">Demo Bank Sample website</h1>
-This is a sample demo project which consists of sample components and common practices. This is built on top of different source technologies like ASP.NET SDK, and JSS SDK.
+<h1 align="center">One demo : Demo Bank Sample website</h1>
+This is a sample demo project which consists of real time components and common practices. This is built on top of different source technologies like ASP.NET SDK, and JSS SDK.
 
+```
+```
+> <h2>A single demo project built in multiple technology stack.</h2> You can refer how implementations can be in different technology stack for the same requirements.
+```
+```
 ## Available source projects
 | Techs  | Src | Status |
 | ------------- | ------------- | ------------- |
 | ASP.NET SDK  | https://github.com/andiappan-ar/Sitecore.DemoBank/tree/master/Src/ASPNET.SDK  | ✅	Available |
 | Next JS SDK - SSG  | https://github.com/andiappan-ar/Sitecore.DemoBank/tree/master/Src/NextJS  | ⏳	InProgress |
 | .NET MAUI SDK (Custom)  | https://github.com/andiappan-ar/Sitecore.DemoBank/tree/master/Src/MAUI  | ✅	Available |
-
+| JSS React SDK  | - | ⏳	InProgress  |
 
 ## Site modules
 This sample site contains common components, multiple sites, multilingual implementation, and so on.
