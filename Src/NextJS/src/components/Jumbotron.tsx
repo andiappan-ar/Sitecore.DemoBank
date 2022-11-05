@@ -35,7 +35,7 @@ const Jumbotron = ({ fields }: JumbotronProps): JSX.Element => (
         <Text field={fields.CardTitle} />
       </h1>
       <div className="fs-5">
-        <RichText field={fields.CardDescription} />
+        <RichText field={fields.CardDescription} className="sdfsd" />
       </div>
       <hr className="my-4 banner-hr" />
       <div className="text-warning">
