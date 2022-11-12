@@ -33,19 +33,23 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
+    "@apollo/client": "^3.7.1",
     "@sitecore-jss/sitecore-jss-nextjs": "^21.0.0",
     "@types/react-router-dom": "^5.3.3",
     "bootstrap": "^4.3.1",
     "cors": "^2.8.5",
-    "graphql": "~15.8.0",
+    "graphql": "^15.8.0",
     "graphql-tag": "^2.11.0",
+    "graphql.macro": "^1.4.2",
     "jquery": "^3.6.1",
     "next": "^12.2.5",
     "next-localization": "^0.12.0",
     "nprogress": "~0.2.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-router-dom": "^6.4.3"
+    "react-query": "^3.39.2",
+    "react-router-dom": "^6.4.3",
+    "webpack": "^5.75.0"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "^1.19.1",

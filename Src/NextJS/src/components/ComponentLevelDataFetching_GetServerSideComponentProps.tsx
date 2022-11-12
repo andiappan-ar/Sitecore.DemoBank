@@ -30,7 +30,6 @@ const fetchPost = () =>
 
 export const getStaticProps: GetServerSideComponentProps = async () => {
   const post = await fetchPost();
-  
   return post;
 };
 
@@ -55,7 +54,7 @@ const ComponentLevelDataFetching_GetServerSideComponentProps = ({
           </h5>
           <h6 className="card-subtitle mb-2 text-muted">
             <Text field={fields.StaticDescriptionFromSitecore}></Text>
-          </h6>          
+          </h6>
           <p className="lead">
             <Text field={fields.ComponentInformation}></Text>
           </p>

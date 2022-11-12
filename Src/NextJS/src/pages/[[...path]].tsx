@@ -15,6 +15,9 @@ import { sitecorePagePropsFactory } from 'lib/page-props-factory';
 // different componentFactory method will be used based on whether page is being edited
 import { componentFactory, editingComponentFactory } from 'temp/componentFactory';
 import { sitemapFetcher } from 'lib/sitemap-fetcher';
+import { QueryClient, QueryClientProvider, useQuery } from 'react-query'
+const queryClient = new QueryClient()
+
 
 const SitecorePage = ({ notFound, componentProps, layoutData }: SitecorePageProps): JSX.Element => {
   useEffect(() => {
@@ -27,27 +30,31 @@ const SitecorePage = ({ notFound, componentProps, layoutData }: SitecorePageProp
     return <NotFound />;
   }
 
+
+
   const isEditing = layoutData.sitecore.context.pageEditing;
   const isComponentRendering =
     layoutData.sitecore.context.renderingType === RenderingType.Component;
 
   return (
-    <ComponentPropsContext value={componentProps}>
-      <SitecoreContext
-        componentFactory={isEditing ? editingComponentFactory : componentFactory}
-        layoutData={layoutData}
-      >
-        {/*
+    <QueryClientProvider client={queryClient}>
+      <ComponentPropsContext value={componentProps}>
+        <SitecoreContext
+          componentFactory={isEditing ? editingComponentFactory : componentFactory}
+          layoutData={layoutData}
+        >
+          {/*
           Sitecore Pages supports component rendering to avoid refreshing the entire page during component editing.
           If you are using Experience Editor only, this logic can be removed, Layout can be left.
         */}
-        {isComponentRendering ? (
-          <EditingComponentPlaceholder rendering={layoutData.sitecore.route} />
-        ) : (
-          <Layout layoutData={layoutData} />
-        )}
-      </SitecoreContext>
-    </ComponentPropsContext>
+          {isComponentRendering ? (
+            <EditingComponentPlaceholder rendering={layoutData.sitecore.route} />
+          ) : (
+            <Layout layoutData={layoutData} />
+          )}
+        </SitecoreContext>
+      </ComponentPropsContext>
+    </QueryClientProvider>
   );
 };
 

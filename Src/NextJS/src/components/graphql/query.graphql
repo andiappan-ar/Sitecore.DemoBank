@@ -1,0 +1,7 @@
+query {
+  layout(site: "demobank-nextjs-jss", routePath: "/login", language: "en") {
+    item {
+      rendered
+    }
+  }
+}

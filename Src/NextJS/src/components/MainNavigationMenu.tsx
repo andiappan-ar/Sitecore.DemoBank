@@ -6,7 +6,6 @@ import {
   withDatasourceCheck,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
-import { useI18n } from 'next-localization';
 
 type MainNavigationMenuProps = ComponentProps & {
   fields: {
@@ -26,10 +25,9 @@ function Get_uniqueId() {
  * JSS component that's useful.
  */
 const MainNavigationMenu = ({ fields }: MainNavigationMenuProps): JSX.Element => {
-  const { locale } = useI18n();
   return (
     <>
-      <Link className="navbar-brand" field={fields.Link} >
+      <Link className="navbar-brand" field={fields.Link}>
         <Text field={fields.DisplayName}></Text>
       </Link>
       <button
@@ -52,7 +50,6 @@ const MainNavigationMenu = ({ fields }: MainNavigationMenuProps): JSX.Element =>
                     role="button"
                     data-bs-toggle="dropdown"
                     field={nav.fields.Link}
-                    
                   >
                     <Text field={nav.fields.DisplayName}></Text>
                   </Link>
@@ -63,7 +60,6 @@ const MainNavigationMenu = ({ fields }: MainNavigationMenuProps): JSX.Element =>
                           key={Get_uniqueId()}
                           className="dropdown-item"
                           field={innerNav.fields.Link}
-                          
                         >
                           <Text field={innerNav.fields.DisplayName}></Text>
                         </Link>
@@ -72,7 +68,7 @@ const MainNavigationMenu = ({ fields }: MainNavigationMenuProps): JSX.Element =>
                   </ul>
                 </li>
               ) : (
-                <Link key={Get_uniqueId()} className="nav-link" field={nav.fields.Link} >
+                <Link key={Get_uniqueId()} className="nav-link" field={nav.fields.Link}>
                   <Text field={nav.fields.DisplayName}></Text>
                 </Link>
               )}

@@ -1,9 +1,8 @@
 import { Text, Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
-
 import { SetStateAction, useState } from 'react';
-
 import * as $ from 'jquery';
+import config from 'temp/config';
 
 type CustomLoginFormProps = ComponentProps & {
   fields: {
@@ -35,40 +34,40 @@ const CustomLoginForm = ({ fields }: CustomLoginFormProps): JSX.Element => {
     // Prevent page reload
     event.preventDefault();
 
-    const xhr = new XMLHttpRequest();
-    xhr.open('POST', 'https://arsc.dev.local//sitecore/api/ssc/auth/login');
-    xhr.setRequestHeader('Content-Type', 'application/json');
-    xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
-    xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
-    xhr.setRequestHeader('Access-Control-Allow-Methods', 'DELETE, POST, GET, OPTIONS');
-    xhr.setRequestHeader(
-      'Access-Control-Allow-Headers',
-      'Content-Type, Authorization, X-Requested-With'
-    );
-    xhr.onreadystatechange = function () {
-      if (this.readyState == 4) {
-        alert(
-          'Status: ' +
-            this.status +
-            '\nHeaders: ' +
-            JSON.stringify(this.getAllResponseHeaders()) +
-            '\nBody: ' +
-            this.responseText
-        );
-      }
-    };
+    // const xhr = new XMLHttpRequest();
+    // xhr.open('POST', 'https://arsc.dev.local//sitecore/api/ssc/auth/login');
+    // xhr.setRequestHeader('Content-Type', 'application/json');
+    // xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+    // xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+    // xhr.setRequestHeader('Access-Control-Allow-Methods', 'DELETE, POST, GET, OPTIONS');
+    // xhr.setRequestHeader(
+    //   'Access-Control-Allow-Headers',
+    //   'Content-Type, Authorization, X-Requested-With'
+    // );
+    // xhr.onreadystatechange = function () {
+    //   if (this.readyState == 4) {
+    //     alert(
+    //       'Status: ' +
+    //         this.status +
+    //         '\nHeaders: ' +
+    //         JSON.stringify(this.getAllResponseHeaders()) +
+    //         '\nBody: ' +
+    //         this.responseText
+    //     );
+    //   }
+    // };
 
-    xhr.send(
-      '{ \n    "domain": "sitecore", \n    "' +
-        userInput +
-        '": "admin", \n    "' +
-        passInput +
-        '": "b" \n}'
-    );
+    // xhr.send(
+    //   '{ \n    "domain": "sitecore", \n    "' +
+    //     userInput +
+    //     '": "admin", \n    "' +
+    //     passInput +
+    //     '": "b" \n}'
+    // );
 
     $.ajax({
       type: 'POST',
-      url: 'https://arsc.dev.local//sitecore/api/ssc/auth/login',
+      url: 'https://r-sc102sc.dev.local/sitecore/api/ssc/auth/login',
       data: {
         admin: userInput,
         domain: 'sitecore',
@@ -76,8 +75,6 @@ const CustomLoginForm = ({ fields }: CustomLoginFormProps): JSX.Element => {
       },
       beforeSend: function (xhr) {
         xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
-        xhr.setRequestHeader('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS');
-        xhr.setRequestHeader('Access-Control-Allow-Headers', '*');
       },
       dataType: 'json',
       crossDomain: true,
@@ -87,6 +84,32 @@ const CustomLoginForm = ({ fields }: CustomLoginFormProps): JSX.Element => {
       },
       error: function () {
         alert('error');
+      },
+    });
+
+    $.ajax({
+      type: 'GET',
+      url: config.graphQLEndpoint,
+      data: {
+        query: `{
+          layout(site: "demobank-nextjs-jss", routePath: "/login", language: "en") {
+            item {
+              rendered
+            }
+          }
+        }`,
+        sc_apikey: config.sitecoreApiKey,
+      },
+      beforeSend: function (xhr) {
+        xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+      },
+      //dataType: 'jsonp',
+      crossDomain: true,
+      success: function (response) {
+        console.log(response);
+      },
+      error: function (xhr) {
+        console.log(xhr);
       },
     });
   };

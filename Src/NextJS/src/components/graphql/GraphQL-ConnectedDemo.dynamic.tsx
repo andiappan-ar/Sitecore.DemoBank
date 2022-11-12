@@ -19,6 +19,20 @@ import {
 import { ComponentProps } from 'lib/component-props';
 import config from 'temp/config';
 
+import { gql } from '@apollo/client';
+import { useQuery } from "react-query";
+
+const GET_DOGS = gql`
+  query {
+  layout(site: "demobank-nextjs-jss", routePath: "/login", language: "en") {
+    item {
+      rendered
+    }
+  }
+}
+`;
+
+
 type PageItem = Page & Item;
 
 type GraphQLConnectedDemoData = {
@@ -29,6 +43,28 @@ type GraphQLConnectedDemoData = {
 type GraphQLConnectedDemoProps = ComponentProps & GraphQLConnectedDemoData;
 
 const GraphQLConnectedDemo = (props: GraphQLConnectedDemoProps): JSX.Element => {
+
+
+  const { data, isLoading, error } = useQuery("launches", () => {
+    return fetch(config.graphQLEndpoint, {
+      method: "GET",
+      headers: { 
+        "Content-Type": "application/json",
+        "sc_apikey":config.sitecoreApiKey
+       }       
+    })
+      .then((response) => {
+        if (response.status >= 400) {
+          throw new Error("Error fetching data");
+        } else {
+          return response.json();
+        }
+      })
+      .then((data) => data.data);
+  });
+
+  console.log({ data, isLoading, error });
+
   useEffect(() => {
     resetEditorChromes();
   }, []);

@@ -41,7 +41,6 @@ export const getStaticProps: GetStaticComponentProps = async () => {
 const ComponentLevelDataFetching_GetStaticComponentProps = ({
   fields,
   rendering,
-  
 }: ComponentLevelDataFetching_GetStaticComponentPropsProps): JSX.Element => {
   const externalData1_GetStaticComponentProps = useComponentProps<PostEntity>(rendering.uid);
 
@@ -56,7 +55,7 @@ const ComponentLevelDataFetching_GetStaticComponentProps = ({
           <h6 className="card-subtitle mb-2 text-muted">
             <Text field={fields.StaticDescriptionFromSitecore}></Text>
           </h6>
-          
+
           <p className="lead">
             <Text field={fields.ComponentInformation}></Text>
           </p>
@@ -74,8 +73,6 @@ const ComponentLevelDataFetching_GetStaticComponentProps = ({
               </ul>
             </div>
           )}
-
-          
         </div>
       </div>
     </>

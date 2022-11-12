@@ -9,6 +9,8 @@ import {
 
 import Scripts from 'src/Scripts';
 
+import "jquery";
+
 import Script from 'next/script';
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore editors.
@@ -57,7 +59,7 @@ const Layout = ({ layoutData }: LayoutProps): JSX.Element => {
               </nav>
             </header>
             <Placeholder name="jss-main" rendering={route} />
-            <Script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></Script>
+            {/* <Script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></Script> */}
             <Script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></Script>
             <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></Script>
             <footer className="bg-light py-5">
