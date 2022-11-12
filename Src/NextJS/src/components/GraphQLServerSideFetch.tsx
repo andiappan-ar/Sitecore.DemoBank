@@ -75,12 +75,10 @@ const GraphQLServerSideFetchForm = ({ rendering }: GraphQLServerSideFetchFormPro
               <div className='row'>
                 <br></br>
               </div>
-
+              
               <div className='row'>
                 {serverSideGQLComponentProps && (
-                  <div>
-                    {JSON.stringify(serverSideGQLComponentProps)}
-                  </div>
+                    <textarea value={JSON.stringify(serverSideGQLComponentProps)}></textarea>
                 )}
               </div>
             </div>
@@ -92,8 +90,6 @@ const GraphQLServerSideFetchForm = ({ rendering }: GraphQLServerSideFetchFormPro
   );
 };
 
-export default withDatasourceCheck()<GraphQLServerSideFetchFormProps>(
-  GraphQLServerSideFetchForm
-);
+export default GraphQLServerSideFetchForm;
 
 
