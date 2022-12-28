@@ -1,39 +1,39 @@
 ----item----
 version: 1
-id: {708204B0-0706-4D33-B8D3-EB9D6B3B9E94}
+id: {7B59CEC5-A327-42ED-9C34-EC770EC10ACD}
 database: master
-path: /sitecore/templates/Project/DemoBank/ContentType/Component/Offers
-parent: {985BDF15-E74C-491E-A3A3-8A29C5E3A6AC}
-name: Offers
+path: /sitecore/templates/Project/DemoBank/ContentType/Component/Type/__Standard Values
+parent: {D3FE7E0D-8747-4C8B-B0AF-2C8593EBE637}
+name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}
-template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
-templatekey: Template
+template: {D3FE7E0D-8747-4C8B-B0AF-2C8593EBE637}
+templatekey: Type
 
 ----field----
-field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
-name: __Base template
-key: __base template
+field: {0780A25A-6866-439D-A682-408608A1BA50}
+name: Key
+key: key
+content-length: 5
+
+$name
+----field----
+field: {72064186-8AAA-480A-9B99-B66FCE61C45E}
+name: Value
+key: value
+content-length: 5
+
+$name
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
 content-length: 38
 
-{1930BBEB-7805-471A-A3BE-4858AC7CF696}
-----field----
-field: {F7D48A55-2158-4F02-9356-756654404F73}
-name: __Standard values
-key: __standard values
-content-length: 38
-
-{B3F32C81-9BD5-4C80-8B11-A51E0BC689C7}
-----field----
-field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
-name: __Icon
-key: __icon
-content-length: 31
-
-Apps/32x32/Shop &#40;1&#41;.png
+{D3FE7E0D-8747-4C8B-B0AF-2C8593EBE637}
 ----version----
 language: en
 version: 1
-revision: ca6268cf-df06-4ba3-9b12-81753b68d023
+revision: e30181a8-df56-47b5-a1fb-b567ece230d6
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -48,7 +48,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20220313T063035Z
+20220313T151353Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -62,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ca6268cf-df06-4ba3-9b12-81753b68d023
+e30181a8-df56-47b5-a1fb-b567ece230d6
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20221112T195536Z
+20221112T194553Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
