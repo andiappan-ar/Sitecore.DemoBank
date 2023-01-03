@@ -1,0 +1,39 @@
+{
+  "sitecore": {
+    "instancePath": "C:\\inetpub\\wwwroot\\sc-10.3sc.dev.local",
+    "layoutServiceHost": "https://sc-10.3sc.dev.local",
+    "deployUrl": "https://sc-10.3sc.dev.local/sitecore/api/jss/import",
+    "apiKey": "{AACE4459-B4A5-4FBA-A96C-704A06079689}",
+    "deploySecret": "zxizl79a2peo5kfvc0z4fivxhjs52m5ls6j38x249cog"
+  }
+}
+
+
+PS D:\ARC\Code\Sitecore\GIT\DemoBank\Src\_NEXTJS> npx create-sitecore-jss
+? Which template would you like to create? nextjs
+? Where would you like your new app created? D:\ARC\Code\Sitecore\GIT\DemoBank\Src\_NEXTJS\SSG
+Initializing 'nextjs'...
+? What is the name of your app? demobank-nextjs-jss-ssg
+? What is your Sitecore hostname (used if deployed to Sitecore)? sc-10.3sc.dev.local
+? How would you like to fetch Layout and Dictionary data? GraphQL
+? How would you like to prerender your application? SSG
+? Would you like to include any add-on initializers? nextjs-styleguide-tracking - Includes example (Sitecore XP) tracking component
+Initializing 'nextjs-styleguide-tracking'...
+Warning: nextjs-styleguide-tracking add-on cannot be used without the nextjs-styleguide add-on. This may cause unexpected results.
+Installing packages...
+
+PS D:\ARC\Code\Sitecore\GIT\DemoBank\Src\_NEXTJS\SSG> npx create-sitecore-jss
+? Which template would you like to create? nextjs
+? Where would you like your new app created? D:\ARC\Code\Sitecore\GIT\DemoBank\Src\_NEXTJS\SSG
+Initializing 'nextjs'...
+? What is the name of your app? demobank-nextjs-jss-ssg
+? What is your Sitecore hostname (used if deployed to Sitecore)? sc-10.3sc.dev.local
+? How would you like to fetch Layout and Dictionary data? REST
+? How would you like to prerender your application? SSG
+? Would you like to include any add-on initializers? nextjs-styleguide - Includes example components and setup for working disconnected, nextjs-styleguide-tracking -
+ Includes example (Sitecore XP) tracking component
+Initializing 'nextjs-styleguide'...
+? Which additional language do you want to support (en is already included and required)? ar-AE
+Initializing 'nextjs-styleguide-tracking'...
+Installing packages...
+> npm install
