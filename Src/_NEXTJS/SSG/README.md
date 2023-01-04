@@ -74,7 +74,7 @@ jss start:connected
 
 Finaly Site looks like below
 
-![image](https://user-images.githubusercontent.com/11770345/210638212-0ed0916d-6bd5-47b4-9a24-5b3a81fec36d.png)
+![localhost_3000_](https://user-images.githubusercontent.com/11770345/210639234-858fea70-7f53-49e6-ae0e-33255a233e97.png)
 
 
 # Supporting Features
