@@ -5,7 +5,7 @@ const styleguidePlugin = (nextConfig = {}) => {
   return Object.assign({}, nextConfig, {
     i18n: {
       ...nextConfig.i18n,
-      locales: ['en', 'ar-AE'],
+      locales: ['en', 'ar-AE','ta-IN'],
     },
   });
 };
