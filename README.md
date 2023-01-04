@@ -10,7 +10,7 @@ This is a sample demo project which consists of real time components and common 
 | Techs  | Src | Status |
 | ------------- | ------------- | ------------- |
 | ASP.NET SDK  | https://github.com/andiappan-ar/Sitecore.DemoBank/tree/master/Src/ASPNET.SDK  | ✅	Available |
-| Next JS SDK - SSG  | https://github.com/andiappan-ar/Sitecore.DemoBank/tree/master/Src/NextJS  | ⏳	InProgress |
+| Next JS SDK - SSG  | https://github.com/andiappan-ar/Sitecore.DemoBank/tree/master/Src/_NEXTJS/SSG  | ✅	Available |
 | .NET MAUI SDK (Custom)  | https://github.com/andiappan-ar/Sitecore.DemoBank/tree/master/Src/MAUI  | ✅	Available |
 | JSS React SDK  | - | ⏳	InProgress  |
 
