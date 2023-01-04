@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {6DA6BC2B-B6A6-5C42-ACD7-BDE9A67D627C}
+database: master
+path: /sitecore/content/demobank-nextjs-jss-ssg/home/graphql/Page Components/graphql-jss-graphql-layout-A9FBC7CC-F00B-58A2-873B-4C70C726476C-0-GraphQL-ConnectedDemo-2
+parent: {1768EEDD-4397-5652-A900-C970D398C380}
+name: graphql-jss-graphql-layout-A9FBC7CC-F00B-58A2-873B-4C70C726476C-0-GraphQL-ConnectedDemo-2
+master: {00000000-0000-0000-0000-000000000000}
+template: {B7C83A4C-19CD-57D2-9906-5087BCD65169}
+templatekey: GraphQL-ConnectedDemo
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}
+----version----
+language: en
+version: 1
+revision: 3ff3de99-3e40-4f10-ab53-739352e4d69c
+
+----field----
+field: {245A4482-6D38-5561-8047-33C372867222}
+name: sample1
+key: sample1
+content-length: 30
+
+Hello connected GraphQL world!
+----field----
+field: {2BAD1141-ED35-5202-B604-045484CE446D}
+name: sample2
+key: sample2
+content-length: 129
+
+<link target="_blank" linktype="external" text="GraphQL lets you get structured field data too" url="https://www.sitecore.com" />
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 23
+
+GraphQL-ConnectedDemo-2
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230103T175235Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3ff3de99-3e40-4f10-ab53-739352e4d69c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230103T175235Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 18
+
+sitecore\JssImport
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{FCFDBB96-946A-4D2F-BCCD-5573073FC176}

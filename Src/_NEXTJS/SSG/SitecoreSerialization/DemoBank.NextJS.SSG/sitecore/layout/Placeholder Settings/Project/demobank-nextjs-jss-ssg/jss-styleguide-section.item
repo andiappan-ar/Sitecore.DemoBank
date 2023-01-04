@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {F92084A6-A50D-5D7C-AABA-DD3294866762}
+database: master
+path: /sitecore/layout/Placeholder Settings/Project/demobank-nextjs-jss-ssg/jss-styleguide-section
+parent: {99D20520-EA4D-5E33-8EDA-7D1DC8A21869}
+name: jss-styleguide-section
+master: {00000000-0000-0000-0000-000000000000}
+template: {5C547D4E-7111-4995-95B0-6B561751BF2E}
+templatekey: Placeholder
+
+----field----
+field: {7256BDAB-1FD2-49DD-B205-CB4873D2917C}
+name: Placeholder Key
+key: placeholder key
+content-length: 22
+
+jss-styleguide-section
+----field----
+field: {E391B526-D0C5-439D-803E-17512EAE6222}
+name: Allowed Controls
+key: allowed controls
+content-length: 662
+
+{3779D4CD-11C7-5DB2-A7E7-026A60A93A36}|{B6041F8D-3A51-5301-8A2B-40A9348793A8}|{D07E1396-65D5-528F-A125-239C44B2279D}|{EE1A3BBE-8869-5367-985B-39063A8D2936}|{670B88A2-D95F-559A-BFE5-99CAC921E321}|{9CE465E9-14B0-5F1F-851F-22A4944DD9E1}|{6D42711D-908E-594F-B210-BEC51F4854CC}|{30609197-CC1D-5A29-9632-51102BD2AEE0}|{A22268C8-F8DD-5EDB-9173-C2079B14AC52}|{75057E67-F5CD-5D5B-B596-F3E99A324EDC}|{F837BF0E-13CD-5FAC-B575-1DAEC33E3C4F}|{06D1E8ED-5FFE-5DE1-92D0-C7D1B866193C}|{403730D8-C7BB-529A-A31F-D33DE972302D}|{1481D5D6-406C-5287-A2C8-5412F0C1FF36}|{2B9B2148-8A4B-5A73-867C-9B188D400525}|{9C1D0034-BD18-5A09-BFE7-DEB8EA550F93}|{6AF9D3D4-8EB0-5BC2-8E85-E8EEB6861CE2}
+----field----
+field: {9C6106EA-7A5A-48E2-8CAD-F0F693B1E2D4}
+name: __Read Only
+key: __read only
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: 1f87680b-0b59-4521-b95e-b6066f5f374f
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 18
+
+sitecore\JssImport
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230103T174948Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+sitecore\JssImport
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1f87680b-0b59-4521-b95e-b6066f5f374f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230103T175231Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 18
+
+sitecore\JssImport

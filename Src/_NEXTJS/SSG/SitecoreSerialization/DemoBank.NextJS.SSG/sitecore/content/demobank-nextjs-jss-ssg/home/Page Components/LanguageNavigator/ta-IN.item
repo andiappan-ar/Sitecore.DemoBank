@@ -1,0 +1,112 @@
+----item----
+version: 1
+id: {E9530FFE-53BA-401F-AFB6-84E02A9F2C73}
+database: master
+path: /sitecore/content/demobank-nextjs-jss-ssg/home/Page Components/LanguageNavigator/ta-IN
+parent: {0018F94F-E144-4735-AA62-4852B9C86A76}
+name: ta-IN
+master: {00000000-0000-0000-0000-000000000000}
+template: {EE2BB2EC-00E7-44C7-8226-FE22E89A0DF9}
+templatekey: LanguageNavigator
+
+----field----
+field: {093CD00E-2149-4849-B885-5158E5B86404}
+name: LanguageCode
+key: languagecode
+content-length: 5
+
+ta-IN
+----version----
+language: en
+version: 1
+revision: 9fae76da-029f-4ba2-96d8-099fcd653bd7
+
+----field----
+field: {8A3D7AFB-7018-4FC4-924E-0312BD65DC87}
+name: LanguageDisplayName
+key: languagedisplayname
+content-length: 5
+
+ta-IN
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230104T165453Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9fae76da-029f-4ba2-96d8-099fcd653bd7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230104T165821Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----version----
+language: ta-IN
+version: 1
+revision: 10e1c365-c0f0-441c-9cff-3d92b34c7ffd
+
+----field----
+field: {8A3D7AFB-7018-4FC4-924E-0312BD65DC87}
+name: LanguageDisplayName
+key: languagedisplayname
+content-length: 5
+
+ta-IN
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230104T173743Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+10e1c365-c0f0-441c-9cff-3d92b34c7ffd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230104T173750Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

@@ -1,0 +1,100 @@
+----item----
+version: 1
+id: {2B9B2148-8A4B-5A73-867C-9B188D400525}
+database: master
+path: /sitecore/layout/Renderings/Project/demobank-nextjs-jss-ssg/Styleguide-RouteFields
+parent: {BF829122-B8E8-5C11-AE53-4BC9C47D6F18}
+name: Styleguide-RouteFields
+master: {00000000-0000-0000-0000-000000000000}
+template: {04646A89-996F-4EE7-878A-FFDBF1F0EF0D}
+templatekey: Json Rendering
+
+----field----
+field: {037FE404-DD19-4BF7-8E30-4DADF68B27B0}
+name: componentName
+key: componentname
+content-length: 22
+
+Styleguide-RouteFields
+----field----
+field: {A77E8568-1AB3-44F1-A664-B7C37EC7810D}
+name: Parameters Template
+key: parameters template
+content-length: 38
+
+{2BEE3CD4-206E-5C70-899E-3BB0B1061A51}
+----field----
+field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
+name: Datasource Location
+key: datasource location
+content-length: 93
+
+./Page Components|/sitecore/content/demobank-nextjs-jss-ssg/Components/Styleguide-RouteFields
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 74
+
+/sitecore/templates/Project/demobank-nextjs-jss-ssg/Styleguide-RouteFields
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 27
+
+Office/16x16/text_field.png
+----field----
+field: {9C6106EA-7A5A-48E2-8CAD-F0F693B1E2D4}
+name: __Read Only
+key: __read only
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: 32d84d4b-06e0-4880-855d-06a38ee882dc
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 18
+
+sitecore\JssImport
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230103T174956Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+sitecore\JssImport
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+32d84d4b-06e0-4880-855d-06a38ee882dc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230103T175231Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 18
+
+sitecore\JssImport

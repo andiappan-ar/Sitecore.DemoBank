@@ -1,0 +1,140 @@
+----item----
+version: 1
+id: {40FCD64F-911A-48E7-965B-1CAA47CF6492}
+database: master
+path: /sitecore/content/demobank-nextjs-jss-ssg/home/Page Components/IconCards/Offers
+parent: {6DF424BE-8F83-4F00-BCAA-BF671C40A2ED}
+name: Offers
+master: {00000000-0000-0000-0000-000000000000}
+template: {3544D2D2-BC9D-4372-BE0E-F03F59CCD1FF}
+templatekey: Card
+
+----field----
+field: {CCF2E614-DA8C-4F90-A839-8B6AD93FEBBC}
+name: CardImage
+key: cardimage
+content-length: 58
+
+<image mediaid="{6B87C2E5-25DD-4E18-AA73-808273CF4355}" />
+----version----
+language: en
+version: 1
+revision: 4de1c624-0fb6-46b3-bac3-e2ae846be533
+
+----field----
+field: {6DA84341-9A88-46E3-810D-9092C1D998CD}
+name: CardTitle
+key: cardtitle
+content-length: 6
+
+Offers
+----field----
+field: {84C0DF91-066C-4365-8592-1BCD114EE4B8}
+name: CardDescription
+key: carddescription
+content-length: 44
+
+Exclusive! Personalized offers in all areas.
+----field----
+field: {7A00990E-9BE9-4655-91AE-22C0463A7B32}
+name: CardLink
+key: cardlink
+content-length: 130
+
+<link text="Offers" anchor="" linktype="internal" class="" title=""  querystring="" id="{CDED3EEB-5D06-4F6F-827A-F1606E4E9730}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220306T131633Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4de1c624-0fb6-46b3-bac3-e2ae846be533
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220306T132708Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ta-IN
+version: 1
+revision: befcd271-6ec0-43b7-924b-57f68518fc44
+
+----field----
+field: {6DA84341-9A88-46E3-810D-9092C1D998CD}
+name: CardTitle
+key: cardtitle
+content-length: 8
+
+சலுகைகள்
+----field----
+field: {84C0DF91-066C-4365-8592-1BCD114EE4B8}
+name: CardDescription
+key: carddescription
+content-length: 72
+
+தனிக் குத்தகைச்சரக்கு! அனைத்து பகுதிகளிலும் தனிப்பயனாக்கப்பட்ட சலுகைகள்.
+----field----
+field: {7A00990E-9BE9-4655-91AE-22C0463A7B32}
+name: CardLink
+key: cardlink
+content-length: 141
+
+<link text="சலுகைகள்" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{CDED3EEB-5D06-4F6F-827A-F1606E4E9730}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220319T193234Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+befcd271-6ec0-43b7-924b-57f68518fc44
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220319T193518Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

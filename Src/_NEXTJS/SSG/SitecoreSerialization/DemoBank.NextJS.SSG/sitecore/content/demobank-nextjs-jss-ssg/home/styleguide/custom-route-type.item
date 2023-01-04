@@ -1,0 +1,93 @@
+----item----
+version: 1
+id: {36F2C18F-A719-5BF7-9ADE-0473FD0A28EE}
+database: master
+path: /sitecore/content/demobank-nextjs-jss-ssg/home/styleguide/custom-route-type
+parent: {922F0562-9964-5173-9921-00CB3F84354E}
+name: custom-route-type
+master: {00000000-0000-0000-0000-000000000000}
+template: {B3FC3DAE-FD6E-5A2B-88DB-D1888D09BCFD}
+templatekey: ExampleCustomRouteType
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}
+----version----
+language: en
+version: 1
+revision: 98891eac-de93-4335-b324-ebc96e12c64f
+
+----field----
+field: {C3739E45-22DA-516E-A859-E05BE5FF51AC}
+name: headline
+key: headline
+content-length: 39
+
+A Treatise on Route-Level Fields in JSS
+----field----
+field: {2AE8E7ED-FF9F-5282-9E77-F1CEA18CC8D9}
+name: author
+key: author
+content-length: 6
+
+Myrtle
+----field----
+field: {6E19C2FA-4849-5D60-8771-1ADA020CE184}
+name: content
+key: content
+content-length: 443
+
+<p>Custom route type fields are good for things like articles, where you may wish to have a filter UI on content fields, such as author or category. Route level fields are easy to query against, whereas component-level fields are not because it's possible to remove a component from a route. Note that route level fields <em>cannot be personalized</em> because you cannot conditionally swap out the route item for a different content item.</p>
+----field----
+field: {2F4F20F7-50B6-5962-BABA-16422F039A8F}
+name: pageTitle
+key: pagetitle
+content-length: 32
+
+Custom Route Type | Sitecore JSS
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 266
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{621128A6-CC4D-5287-8ED6-E4A89A7DBBDB}" p:after="*[1=2]" s:rname="Styleguide-CustomRouteType" s:id="{44E625DF-F27B-5D79-A873-58026A89EBDF}" s:par="" s:ph="/jss-main" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230103T175246Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+98891eac-de93-4335-b324-ebc96e12c64f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230103T175246Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 18
+
+sitecore\JssImport
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{FCFDBB96-946A-4D2F-BCCD-5573073FC176}

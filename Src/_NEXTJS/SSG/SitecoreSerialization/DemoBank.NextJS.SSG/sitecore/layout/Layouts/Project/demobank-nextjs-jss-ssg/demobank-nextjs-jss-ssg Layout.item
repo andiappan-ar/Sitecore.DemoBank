@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {C6ADF947-28B6-58E7-BABB-3371197C0D24}
+database: master
+path: /sitecore/layout/Layouts/Project/demobank-nextjs-jss-ssg/demobank-nextjs-jss-ssg Layout
+parent: {4DCEA710-DCB7-5DB2-83E3-3B751437D87D}
+name: demobank-nextjs-jss-ssg Layout
+master: {00000000-0000-0000-0000-000000000000}
+template: {35C61E90-47DD-43DD-83A8-D1C4D5119720}
+templatekey: JSS Layout
+
+----field----
+field: {80334869-86DC-4472-AA89-44CF1B2F6C9B}
+name: Placeholders
+key: placeholders
+content-length: 155
+
+{25767462-C0C4-5601-BC17-E0F3E2429093}|{FE8B45ED-CE6C-4909-84E6-572B7C2A7B36}|{33D9E575-B1D2-44D6-95E5-CA5D07B81E05}|{903A7221-5343-4B8B-90A3-188C3636C43D}
+----field----
+field: {9C6106EA-7A5A-48E2-8CAD-F0F693B1E2D4}
+name: __Read Only
+key: __read only
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: d582bdee-8b70-4eb7-9bd5-cd327b4557ff
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 18
+
+sitecore\JssImport
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230103T174958Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+sitecore\JssImport
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d582bdee-8b70-4eb7-9bd5-cd327b4557ff
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230103T193550Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

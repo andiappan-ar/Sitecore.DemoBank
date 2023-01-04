@@ -1,0 +1,142 @@
+----item----
+version: 1
+id: {0A5F2B36-EBCB-424B-9645-2289830C1384}
+database: master
+path: /sitecore/content/demobank-nextjs-jss-ssg/home/Page Components/IconCards/Quick account creation
+parent: {6DF424BE-8F83-4F00-BCAA-BF671C40A2ED}
+name: Quick account creation
+master: {00000000-0000-0000-0000-000000000000}
+template: {3544D2D2-BC9D-4372-BE0E-F03F59CCD1FF}
+templatekey: Card
+
+----field----
+field: {CCF2E614-DA8C-4F90-A839-8B6AD93FEBBC}
+name: CardImage
+key: cardimage
+content-length: 58
+
+<image mediaid="{383036BE-3F05-4FA3-AAD5-18B597EEC669}" />
+----version----
+language: en
+version: 1
+revision: 4ba5bd26-ec45-453c-9232-e96bac7e57e7
+
+----field----
+field: {6DA84341-9A88-46E3-810D-9092C1D998CD}
+name: CardTitle
+key: cardtitle
+content-length: 21
+
+Quick account opening
+----field----
+field: {84C0DF91-066C-4365-8592-1BCD114EE4B8}
+name: CardDescription
+key: carddescription
+content-length: 97
+
+Hazard free 15 mins account creation! minimal proof required. 
+Onboarding through online service.
+----field----
+field: {7A00990E-9BE9-4655-91AE-22C0463A7B32}
+name: CardLink
+key: cardlink
+content-length: 140
+
+<link text="QuickOpenAccount" anchor="" linktype="internal" class="" title=""  querystring="" id="{BB2E5133-B92B-468B-8ED9-85AA10FFC54F}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220306T131257Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4ba5bd26-ec45-453c-9232-e96bac7e57e7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220319T193320Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ta-IN
+version: 1
+revision: 7495ea47-a382-4e30-840e-5fedb5bbd4c1
+
+----field----
+field: {6DA84341-9A88-46E3-810D-9092C1D998CD}
+name: CardTitle
+key: cardtitle
+content-length: 23
+
+விரைவு கணக்குத் திறப்பு
+----field----
+field: {84C0DF91-066C-4365-8592-1BCD114EE4B8}
+name: CardDescription
+key: carddescription
+content-length: 102
+
+ஆபத்து இலவச 15 நிமிடங்கள் கணக்கு உருவாக்கம்! குறைந்தபட்ச ஆதாரம் தேவை. 
+ஆன்லைன் சேவை மூலம் ஆன்போர்டிங்.
+----field----
+field: {7A00990E-9BE9-4655-91AE-22C0463A7B32}
+name: CardLink
+key: cardlink
+content-length: 156
+
+<link text="விரைவு கணக்குத் திறப்பு" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{BB2E5133-B92B-468B-8ED9-85AA10FFC54F}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220319T193331Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7495ea47-a382-4e30-840e-5fedb5bbd4c1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220319T193534Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
